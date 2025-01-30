@@ -29,5 +29,6 @@ func Database(connString string) {
 		logrus.Info("mysql ini load failed': %v", err)
 		panic(err)
 	}
+	logrus.Info("Mysql connect success")
 	migration()
 }

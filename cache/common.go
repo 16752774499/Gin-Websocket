@@ -1,7 +1,6 @@
 package cache
 
 import (
-	"fmt"
 	"github.com/go-redis/redis"
 	"github.com/sirupsen/logrus"
 	"gopkg.in/ini.v1"
@@ -46,8 +45,5 @@ func Redis() {
 		panic(err)
 	}
 	RedisClient = client
-	fmt.Println("redis connect success")
-}
-func main() {
-	Redis()
+
 }

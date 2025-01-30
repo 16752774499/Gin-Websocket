@@ -4,11 +4,13 @@ import (
 	"Gin-WebSocket/moudel"
 	"context"
 	"fmt"
+	"strings"
+
 	"github.com/sirupsen/logrus"
+	_ "github.com/sirupsen/logrus"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 	"gopkg.in/ini.v1"
-	"strings"
 )
 
 // 读取conf.ini
@@ -32,12 +34,14 @@ var (
 	MongoDBPort   string
 )
 
-func init() {
+func Init() {
 	//从本地读取环境
+
 	file, err := ini.Load("./conf/conf.ini")
 	if err != nil {
 		fmt.Printf("ini load failed': %v", err)
 	}
+	LoadLog(file)
 	LoadServer(file)
 	LoadMySql(file)
 	LoadMongoDB(file)
@@ -46,6 +50,7 @@ func init() {
 	// 正确的拼接方式
 	mysqlPath := strings.Join([]string{DbUser, ":", DbPassWord, "@tcp(", DbHost, ")/", DbName, "?charset=utf8mb4&parseTime=True&loc=Local"}, "")
 	moudel.Database(mysqlPath) //链接Mysql
+
 }
 
 func MongoDB() {
