@@ -1,4 +1,4 @@
-package moudel
+package model
 
 import (
 	"github.com/sirupsen/logrus"

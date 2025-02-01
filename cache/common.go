@@ -33,7 +33,7 @@ func LoadMyRedis(file *ini.File) {
 	RedisDbName = file.Section("redis").Key("RedisDbName").String()
 }
 func Redis() {
-	db, _ := strconv.ParseUint(RedisDb, 10, 64) // string to uint64
+	db, _ := strconv.ParseUint(RedisDbName, 10, 64) // string to uint64
 	client := redis.NewClient(&redis.Options{
 		Addr:     RedisAddr,
 		Password: RedisPw,

@@ -1,16 +1,15 @@
 package conf
 
 import (
-	"Gin-WebSocket/moudel"
+	"Gin-WebSocket/model"
 	"context"
 	"fmt"
-	"strings"
-
 	"github.com/sirupsen/logrus"
 	_ "github.com/sirupsen/logrus"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 	"gopkg.in/ini.v1"
+	"strings"
 )
 
 // 读取conf.ini
@@ -30,6 +29,7 @@ var (
 	RedisDbName   string
 	MongoDBName   string
 	MongoDBAddr   string
+	MongoDBUser   string
 	MongoDBPwd    string
 	MongoDBPort   string
 )
@@ -49,12 +49,13 @@ func Init() {
 	//mysqlPath := "gorm:ECweAtSJPaSBffd3@tcp(127.0.0.1:3306)/gorm?charset=utf8mb4&parseTime=True&loc=Local"
 	// 正确的拼接方式
 	mysqlPath := strings.Join([]string{DbUser, ":", DbPassWord, "@tcp(", DbHost, ")/", DbName, "?charset=utf8mb4&parseTime=True&loc=Local"}, "")
-	moudel.Database(mysqlPath) //链接Mysql
+	model.Database(mysqlPath) //链接Mysql
 
 }
 
 func MongoDB() {
-	clientOptions := options.Client().ApplyURI("mongodb://" + MongoDBAddr + ":" + MongoDBPort)
+	connectionString := fmt.Sprintf("mongodb://%s:%s@%s:%s", MongoDBUser, MongoDBPwd, MongoDBAddr, MongoDBPort)
+	clientOptions := options.Client().ApplyURI(connectionString)
 	var err error
 	MongoDBClient, err = mongo.Connect(context.TODO(), clientOptions)
 	if err != nil {
@@ -70,6 +71,8 @@ func LoadMongoDB(file *ini.File) {
 	MongoDBAddr = file.Section("MongoDB").Key("MongoDBAddr").String()
 	MongoDBPwd = file.Section("MongoDB").Key("MongoDBPwd").String()
 	MongoDBPort = file.Section("MongoDB").Key("MongoDBPort").String()
+	MongoDBUser = file.Section("MongoDB").Key("MongoDBUser").String()
+
 }
 
 func LoadMySql(file *ini.File) {
