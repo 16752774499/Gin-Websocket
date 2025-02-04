@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"github.com/gin-gonic/gin"
 	"github.com/gorilla/websocket"
-	"github.com/sirupsen/logrus"
+	"go.uber.org/zap"
 	"net/http"
 	"strconv"
 	"time"
@@ -78,13 +78,14 @@ func CreateID(uid, toUid string) string {
 	return uid + "->" + toUid
 }
 
-func Handler(ctx *gin.Context) {
+func Chat(ctx *gin.Context) {
 	// 获取请求参数中的uid
 	uid := ctx.Query("uid")
 	// 获取请求参数中的toUid
 	toUid := ctx.Query("toUid")
 
 	// 创建websocket升级器，并设置跨域策略为允许所有源
+	// 创建websocket升级器
 	conn, err := (&websocket.Upgrader{
 		CheckOrigin: func(r *http.Request) bool {
 			return true
@@ -118,59 +119,80 @@ func Handler(ctx *gin.Context) {
 
 func (manager *Client) Read() {
 	defer func() {
-		//将用户进行注销操作
+		// 延迟执行，确保在函数退出前执行，将用户进行注销操作
 		Manager.Unregister <- manager
-		_ = manager.Socket.Close() //关闭该socket
+		_ = manager.Socket.Close() // 关闭该socket
 	}()
 	for {
+		// 处理pong消息
 		manager.Socket.PongHandler()
+
+		// 创建一个新的SendMsg实例
 		sendMsg := new(SendMsg)
+
+		// 从socket中读取JSON格式的消息
 		//client.Socket.ReadMessage()//字符串类型
 		if err := manager.Socket.ReadJSON(&sendMsg); err != nil { //json类型
-			logrus.Info("数据格式不正确！", err)
-			Manager.Unregister <- manager //注销链接
-			_ = manager.Socket.Close()    //关闭socket
-			break                         //关闭循环
+			// 如果读取JSON数据失败，输出错误信息
+
+			conf.Log.Warn("数据格式不正确！", zap.Any("err", err))
+			Manager.Unregister <- manager // 注销链接
+			_ = manager.Socket.Close()    // 关闭socket
+			break                         // 关闭循环
 		}
+
+		// 判断消息类型是否为发送消息
 		if sendMsg.Type == 1 { //发送消息
-			//在缓存中找 1->2 和 2->1
+			// 在缓存中查找与当前用户相关的消息记录数量（redis目前只记录了消息数量）
+			// 在缓存中找 1->2 和 2->1
 			r1, _ := cache.RedisClient.Get(manager.ID).Result()
 			r2, _ := cache.RedisClient.Get(manager.SendID).Result()
+
+			// 判断是否达到发送限制
 			if r1 > "3" && r2 == "" { //(1->2)发三条以上，2不回，则销毁资源
+				// 构造回复消息
 				replyMsg := ReplyMsg{
 					Code:    e.WebsocketOfflineReply,
 					Content: e.GetMsg(e.WebsocketLimit),
 				}
-				msg, _ := json.Marshal(&replyMsg)                           //序列化
-				_ = manager.Socket.WriteMessage(websocket.TextMessage, msg) //使用空标识符 _ 来忽略 WriteMessage 方法返回的错误。这意味着调用 client.Socket.WriteMessage 方法时，即使出现错误，程序也不会对该错误做任何处理，会继续往下执行。
-				//err := client.Socket.WriteMessage(websocket.TextMessage, msg) //通过这种方式，我们可以在后续代码中对错误进行检查和处理。正确处理错误能让程序更加健壮和可靠。
+
+				// 序列化回复消息
+				msg, _ := json.Marshal(&replyMsg)                           // 序列化
+				_ = manager.Socket.WriteMessage(websocket.TextMessage, msg) // 使用空标识符 _ 来忽略 WriteMessage 方法返回的错误。这意味着调用 client.Socket.WriteMessage 方法时，即使出现错误，程序也不会对该错误做任何处理，会继续往下执行。
+				// err := client.Socket.WriteMessage(websocket.TextMessage, msg) // 通过这种方式，我们可以在后续代码中对错误进行检查和处理。正确处理错误能让程序更加健壮和可靠。
 				continue
 			} else {
+				// 否则，增加消息计数并设置过期时间
 				/*
 					Incr 函数会先将键的值初始化为 1，然后返回这个初始值。
 					如果键已经存在且它的值是一个数字，则会将该值增加 1，并返回增加后的值。
 				*/
 				cache.RedisClient.Incr(manager.ID)
-				//链接建立一个月就会到期
-				_, _ = cache.RedisClient.Expire(manager.ID, time.Hour*24*30).Result() //一个月过期
+				// 链接建立一个月就会到期
+				_, _ = cache.RedisClient.Expire(manager.ID, time.Hour*24*30).Result() // 一个月过期
 			}
-			//广播该消息
+
+			// 广播该消息
 			Manager.Broadcast <- &Broadcast{
 				Client:  manager,
-				Message: []byte(sendMsg.Content), //消息
+				Message: []byte(sendMsg.Content), // 消息内容
 			}
 		} else if sendMsg.Type == 2 {
-			//获取历史消息
-			timeT, err := strconv.Atoi(sendMsg.Content) //string to int
+			// 获取历史消息
+			timeT, err := strconv.Atoi(sendMsg.Content) // string to int
 			if err != nil {
 				timeT = 999999999
 			}
 			fmt.Println("SendID:", manager.SendID, "ID:", manager.ID)
-			results, _ := FindMany(conf.MongoDBName, manager.SendID, manager.ID, int64(timeT), 10) //获取10条历史消息
 
+			// 从MongoDB中查询历史消息
+			results, _ := FindMany(conf.MongoDBName, manager.SendID, manager.ID, int64(timeT), 10) // 获取10条历史消息
+
+			// 判断查询结果数量
 			if len(results) > 10 {
 				results = results[:10]
 			} else if len(results) == 0 {
+				// 如果没有历史消息，构造回复消息
 				replyMsg := ReplyMsg{
 					Code:    e.WebsocketEnd,
 					Content: "没有更多历史记录了！",
@@ -179,6 +201,8 @@ func (manager *Client) Read() {
 				_ = manager.Socket.WriteMessage(websocket.TextMessage, msg)
 				continue
 			}
+
+			// 遍历查询结果，构造回复消息并发送
 			for _, result := range results {
 				replyMsg := ReplyMsg{
 					From:    result.From,
@@ -187,30 +211,33 @@ func (manager *Client) Read() {
 				msg, _ := json.Marshal(&replyMsg)
 				_ = manager.Socket.WriteMessage(websocket.TextMessage, msg)
 			}
-
 		}
-
 	}
-
 }
 
 func (client *Client) Write() {
 	defer func() {
+		// 延迟执行，确保在函数退出前关闭socket连接
 		_ = client.Socket.Close()
 	}()
 	for {
 		select {
-		//取消息
+		// 取消息
 		case message, ok := <-client.Send:
+			// 判断通道是否已关闭
 			if !ok {
+				// 如果通道已关闭，则发送关闭消息并退出函数
 				_ = client.Socket.WriteMessage(websocket.CloseMessage, []byte{})
 				return
 			}
+			// 构造回复消息
 			replyMsg := ReplyMsg{
 				Code:    e.WebsocketSuccess,
 				Content: fmt.Sprintf("%s", string(message)),
 			}
+			// 序列化回复消息
 			msg, _ := json.Marshal(&replyMsg)
+			// 将回复消息写入socket
 			_ = client.Socket.WriteMessage(websocket.TextMessage, msg)
 		}
 	}

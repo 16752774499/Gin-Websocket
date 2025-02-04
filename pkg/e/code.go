@@ -8,6 +8,7 @@ const (
 	InvalidParams         = 400
 	ErrorDatabase         = 40001
 
+	WebsocketLinkSuccess    = 50000
 	WebsocketSuccessMessage = 50001
 	WebsocketSuccess        = 50002
 	WebsocketEnd            = 50003

@@ -9,10 +9,12 @@ import (
 
 var (
 	RedisClient *redis.Client
-	RedisDb     string
-	RedisAddr   string
-	RedisPw     string
-	RedisDbName string
+
+	RedisDb       string
+	RedisAddr     string
+	RedisPw       string
+	RedisDbName   string
+	SessionDbName string
 )
 
 func init() {
@@ -23,6 +25,7 @@ func init() {
 	}
 	LoadMyRedis(file) //读取配置信息
 	Redis()           //创建reids链接
+
 }
 
 func LoadMyRedis(file *ini.File) {
@@ -31,6 +34,8 @@ func LoadMyRedis(file *ini.File) {
 	RedisAddr = file.Section("redis").Key("RedisAddr").String()
 	RedisPw = file.Section("redis").Key("RedisPw").String()
 	RedisDbName = file.Section("redis").Key("RedisDbName").String()
+	SessionDbName = file.Section("redis").Key("SessionDbName").String()
+
 }
 func Redis() {
 	db, _ := strconv.ParseUint(RedisDbName, 10, 64) // string to uint64

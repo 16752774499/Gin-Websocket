@@ -1,14 +1,21 @@
 package model
 
 import (
+	"database/sql"
 	"golang.org/x/crypto/bcrypt"
 	"gorm.io/gorm"
 )
 
 type User struct {
 	gorm.Model
-	UserName string `gorm:"unique"`
-	Password string
+	ID        uint   `gorm:"primaryKey"`
+	UserName  string `gorm:"unique"`
+	Password  string `gorm:"not null"`
+	Avatar    sql.NullString
+	DeletedAt gorm.DeletedAt `gorm:"index"` // 带索引的软删除时间字段，用于软删除标记
+	//设置关联外键
+	// 定义一对多关系，一个用户有多个好友关系（反向关联）
+	FriendRelationships []UserFriend `gorm:"foreignKey:UserID"`
 }
 
 // 加密难度
