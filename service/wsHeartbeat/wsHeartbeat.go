@@ -1,4 +1,4 @@
-package service
+package wsHeartbeat
 
 import (
 	"Gin-WebSocket/conf"
@@ -31,7 +31,7 @@ type OnlineManager struct {
 	mu sync.RWMutex
 }
 
-// 初始化在线管理器 ，wsChat需要用到
+// 初始化在线管理器
 var onlineManager = &OnlineManager{
 	OnlineUsers: make(map[int]bool),
 	Connections: make(map[int]*websocket.Conn),
@@ -60,6 +60,11 @@ func HandleHeartbeat(ctx *gin.Context) {
 	for {
 		_, msg, err := conn.ReadMessage()
 		if err != nil {
+			// 如果是正常关闭连接的错误，直接退出循环
+			//if websocket.IsUnexpectedCloseError(err, websocket.CloseGoingAway, websocket.CloseAbnormalClosure) {
+			//	log.Printf("unexpected close error: %v", err)
+			//}
+			//break
 			conf.Log.Error("Heartbeat read error:", zap.Any("错误", err))
 			break
 		}

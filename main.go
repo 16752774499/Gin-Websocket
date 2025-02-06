@@ -5,15 +5,15 @@ import (
 	"Gin-WebSocket/conf"
 	"Gin-WebSocket/middleware"
 	"Gin-WebSocket/router"
-	"Gin-WebSocket/service"
+	"Gin-WebSocket/service/wsHeartbeat"
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"
 )
 
 func main() {
 	conf.Init()
-	go service.Manager.Start()
-	go service.StartHeartbeats()
+	//go service.StartChat()
+	go wsHeartbeat.StartHeartbeats()
 	r := gin.Default()
 	r.Static("/static", "./statics")
 	r.Use(gin.Recovery(), gin.Logger(), middleware.CORSMiddleware())

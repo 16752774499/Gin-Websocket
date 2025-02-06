@@ -16,3 +16,8 @@ const (
 	WebsocketOfflineReply   = 50005
 	WebsocketLimit          = 50006
 )
+
+const (
+	ChatSystemMsg     = 0
+	ChatUserCommonMsg = 1
+)

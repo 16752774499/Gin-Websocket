@@ -1,4 +1,4 @@
-package service
+package wsHeartbeat
 
 import (
 	"Gin-WebSocket/conf"
