@@ -13,7 +13,6 @@ import (
 	"io"
 	"os"
 	"strconv"
-	"strings"
 )
 
 // 读取conf.ini
@@ -53,7 +52,9 @@ func Init() {
 	MongoDB() //链接MongoDB
 	//mysqlPath := "gorm:ECweAtSJPaSBffd3@tcp(127.0.0.1:3306)/gorm?charset=utf8mb4&parseTime=True&loc=Local"
 	// 正确的拼接方式
-	mysqlPath := strings.Join([]string{DbUser, ":", DbPassWord, "@tcp(", DbHost, ")/", DbName, "?charset=utf8mb4&parseTime=True&loc=Local"}, "")
+	//mysqlPath := strings.Join([]string{DbUser, ":", DbPassWord, "@tcp(", DbHost, ")/", DbName, "?charset=utf8mb4&parseTime=True&loc=Local"}, "")
+	mysqlPath := fmt.Sprintf("%s:%s@tcp(%s:%s)/%s?charset=utf8mb4&parseTime=True&loc=Local", DbUser, DbPassWord, DbHost, DbPort, DbName)
+
 	model.Database(mysqlPath) //链接Mysql
 
 }

@@ -30,5 +30,5 @@ func Database(connString string) {
 		panic(err)
 	}
 	logrus.Info("Mysql connect success")
-	migration()
+	Migration()
 }

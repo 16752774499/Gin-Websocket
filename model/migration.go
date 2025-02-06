@@ -2,7 +2,7 @@ package model
 
 import "fmt"
 
-func migration() {
+func Migration() {
 
 	//自动迁移表结构
 	err = DB.AutoMigrate(&User{}, UserFriend{})
