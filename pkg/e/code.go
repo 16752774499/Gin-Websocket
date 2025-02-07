@@ -18,6 +18,7 @@ const (
 )
 
 const (
-	ChatSystemMsg     = 0
-	ChatUserCommonMsg = 1
+	ChatSystemMsg      = 0
+	ChatUserCommonMsg  = 1
+	ChatMessageHistory = 2
 )

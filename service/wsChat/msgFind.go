@@ -1,10 +1,11 @@
-package service
+package wsChat
 
 import (
 	"Gin-WebSocket/conf"
 	"Gin-WebSocket/model/ws"
 	"context"
 	"fmt"
+	"github.com/sirupsen/logrus"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo/options"
 	"sort"
@@ -12,9 +13,7 @@ import (
 )
 
 type SendSortMsg struct {
-	Context  string `json:"context"`
-	Read     uint   `json:"read"`
-	CreateAt int64  `json:"create_at"`
+	Context string `json:"context"`
 }
 
 func InsertMsg(database, id string, content string, read uint, expire int64) error {
@@ -36,7 +35,7 @@ func InsertMsg(database, id string, content string, read uint, expire int64) err
 	// 返回插入操作的结果错误
 	return err
 }
-func FindMany(database string, sendID string, id string, time int64, pageSize int) (results []ws.Result, err error) {
+func FindMany(database string, sendID string, id string, timeT int64, pageSize int) (results []Message, err error) {
 	//var resultsMe []ws.Trainer
 	//var resultsYou []ws.Trainer
 	//sendIdCollection := conf.MongoDBClient.Database(database).Collection(sendID)
@@ -55,12 +54,13 @@ func FindMany(database string, sendID string, id string, time int64, pageSize in
 
 	sendIdCollection := conf.MongoDBClient.Database(database).Collection(sendID)
 	idCollection := conf.MongoDBClient.Database(database).Collection(id)
-
+	//查询time之前的数据
+	filter := bson.M{"startTime": bson.M{"$lt": timeT}}
 	// 执行sendIdCollection的查询
 	sendIdFindOptions := options.Find()
 	sendIdFindOptions.SetSort(bson.D{{"startTime", -1}})
 	sendIdFindOptions.SetLimit(int64(pageSize))
-	sendIdTimeCursor, err := sendIdCollection.Find(context.TODO(), bson.D{}, sendIdFindOptions)
+	sendIdTimeCursor, err := sendIdCollection.Find(context.TODO(), filter, sendIdFindOptions)
 	if err != nil {
 		return nil, fmt.Errorf("sendIdCollection.Find failed: %v", err)
 	}
@@ -74,7 +74,7 @@ func FindMany(database string, sendID string, id string, time int64, pageSize in
 	idFindOptions := options.Find()
 	idFindOptions.SetSort(bson.D{{"startTime", -1}})
 	idFindOptions.SetLimit(int64(pageSize))
-	idTimeCursor, err := idCollection.Find(context.TODO(), bson.D{}, idFindOptions)
+	idTimeCursor, err := idCollection.Find(context.TODO(), filter, idFindOptions)
 	if err != nil {
 		return nil, fmt.Errorf("idCollection.Find failed: %v", err)
 	}
@@ -88,35 +88,24 @@ func FindMany(database string, sendID string, id string, time int64, pageSize in
 	return results, nil
 }
 
-func AppendAndSort(resultMe []ws.Trainer, resultYou []ws.Trainer) (results []ws.Result, err error) {
+func AppendAndSort(resultMe []ws.Trainer, resultYou []ws.Trainer) (results []Message, err error) {
 	for _, r := range resultMe { //构造返回的Msg
-		SendSort := SendSortMsg{
-			Context:  r.Content,
-			Read:     r.Read,
-			CreateAt: r.StartTime,
+		logrus.Info(r.Content)
+		toStruct, err := jsonBytesToStruct([]byte(r.Content))
+		if err != nil {
+			return nil, err
 		}
-		result := ws.Result{ //构造返回的内容，包括传送者
-			StartTime: r.StartTime,
-			Msg:       fmt.Sprintf("%v", SendSort),
-			From:      "me",
-		}
-		results = append(results, result)
+		results = append(results, toStruct)
 	}
 	for _, r := range resultYou { //构造返回的Msg
-		SendSort := SendSortMsg{
-			Context:  r.Content,
-			Read:     r.Read,
-			CreateAt: r.StartTime,
+		toStruct, err := jsonBytesToStruct([]byte(r.Content))
+		if err != nil {
+			return nil, err
 		}
-		result := ws.Result{ //构造返回的内容，包括传送者
-			StartTime: r.StartTime,
-			Msg:       fmt.Sprintf("%v", SendSort),
-			From:      "you",
-		}
-		results = append(results, result)
+		results = append(results, toStruct)
 	}
 	//根据时间排序
-	sort.Slice(results, func(i, j int) bool { return results[i].StartTime < results[j].StartTime })
+	sort.Slice(results, func(i, j int) bool { return results[i].Time > results[j].Time })
 	return results, nil
 
 }

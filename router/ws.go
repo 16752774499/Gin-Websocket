@@ -9,7 +9,7 @@ import (
 func WsRouter(router *gin.Engine) {
 	wsRouter := router.Group("/ws")
 	{
-		wsRouter.GET("/chat", wsChat.Chat)
+		wsRouter.GET("/chat", wsChat.HandleChat)
 		wsRouter.GET("/heartbeat", wsHeartbeat.HandleHeartbeat)
 		wsRouter.GET("/ping", func(c *gin.Context) {
 			c.JSON(200, "success")
