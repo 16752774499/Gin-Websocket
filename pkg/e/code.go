@@ -21,4 +21,6 @@ const (
 	ChatSystemMsg      = 0
 	ChatUserCommonMsg  = 1
 	ChatMessageHistory = 2
+	ChatMessageNew     = 3
+	ChatMessageFile    = 4
 )

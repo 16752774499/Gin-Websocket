@@ -4,6 +4,8 @@ import (
 	"Gin-WebSocket/model"
 	"context"
 	"fmt"
+	"github.com/minio/minio-go/v7"
+	"github.com/minio/minio-go/v7/pkg/credentials"
 	"github.com/sirupsen/logrus"
 	_ "github.com/sirupsen/logrus"
 	"go.mongodb.org/mongo-driver/mongo"
@@ -17,24 +19,30 @@ import (
 
 // 读取conf.ini
 var (
-	MongoDBClient *mongo.Client
-	AppMode       string
-	HttpPort      string
-	Db            string
-	DbHost        string
-	DbPort        string
-	DbUser        string
-	DbPassWord    string
-	DbName        string
-	RedisDb       string
-	RedisAddr     string
-	RedisPw       string
-	RedisDbName   string
-	MongoDBName   string
-	MongoDBAddr   string
-	MongoDBUser   string
-	MongoDBPwd    string
-	MongoDBPort   string
+	MongoDBClient        *mongo.Client
+	MinioClient          *minio.Client
+	AppMode              string
+	HttpPort             string
+	Db                   string
+	DbHost               string
+	DbPort               string
+	DbUser               string
+	DbPassWord           string
+	DbName               string
+	RedisDb              string
+	RedisAddr            string
+	RedisPw              string
+	RedisDbName          string
+	MongoDBName          string
+	MongoDBAddr          string
+	MongoDBUser          string
+	MongoDBPwd           string
+	MongoDBPort          string
+	MinioEndpoint        string
+	MinioAccessKeyID     string
+	MinioSecretAccessKey string
+	MinioUseSSL          bool
+	MinioBucketName      string
 )
 
 func Init() {
@@ -49,6 +57,7 @@ func Init() {
 	LoadServer(file)
 	LoadMySql(file)
 	LoadMongoDB(file)
+	LoadMinio(file)
 	MongoDB() //链接MongoDB
 	//mysqlPath := "gorm:ECweAtSJPaSBffd3@tcp(127.0.0.1:3306)/gorm?charset=utf8mb4&parseTime=True&loc=Local"
 	// 正确的拼接方式
@@ -56,7 +65,37 @@ func Init() {
 	mysqlPath := fmt.Sprintf("%s:%s@tcp(%s:%s)/%s?charset=utf8mb4&parseTime=True&loc=Local", DbUser, DbPassWord, DbHost, DbPort, DbName)
 
 	model.Database(mysqlPath) //链接Mysql
+	Minio()
+}
+func Minio() {
 
+	// 初始化MinIO客户端
+	client, err := minio.New(MinioEndpoint, &minio.Options{
+		Creds:  credentials.NewStaticV4(MinioAccessKeyID, MinioSecretAccessKey, ""),
+		Secure: MinioUseSSL,
+	})
+	if err != nil {
+		logrus.Info(err)
+		panic(err)
+	}
+
+	// 检查存储桶是否存在，不存在则创建
+	exists, err := client.BucketExists(context.Background(), MinioBucketName)
+	if err != nil {
+		logrus.Info(err)
+		panic(err)
+	}
+
+	if !exists {
+		err = client.MakeBucket(context.Background(), MinioBucketName, minio.MakeBucketOptions{})
+		if err != nil {
+			logrus.Info(err)
+			panic(err)
+		}
+	}
+
+	MinioClient = client
+	logrus.Info("Minio connect success")
 }
 
 func MongoDB() {
@@ -93,6 +132,14 @@ func LoadMySql(file *ini.File) {
 func LoadServer(file *ini.File) {
 	AppMode = file.Section("service").Key("AppMode").String()
 	HttpPort = file.Section("service").Key("HttpPort").String()
+}
+
+func LoadMinio(file *ini.File) {
+	MinioEndpoint = file.Section("Minio").Key("MinioEndpoint").String()
+	MinioAccessKeyID = file.Section("Minio").Key("MinioAccessKeyID").String()
+	MinioSecretAccessKey = file.Section("Minio").Key("MinioSecretAccessKey").String()
+	MinioUseSSL, _ = file.Section("Minio").Key("MinioUseSSL").Bool()
+	MinioBucketName = file.Section("Minio").Key("MinioBucketName").String()
 }
 
 // Level 日志级别。建议从服务配置读取。

@@ -115,9 +115,17 @@ func (client *Connection) Read() {
 				return
 			}
 			server.sendToMsg <- bytes
+		case e.ChatMessageFile:
+			bytes, err := structToJsonBytes(message)
+			if err != nil {
+				return
+			}
+			server.sendToMsg <- bytes
 		case e.ChatMessageHistory:
 			//历史消息
 			client.ChatMessageHistory(*message)
+		case e.ChatMessageNew:
+			client.ChatMessageNew(*message)
 
 		default:
 			logrus.Info("其他")
@@ -188,7 +196,7 @@ func (client *Connection) ChatMessageHistory(message Message) {
 	if err != nil {
 		replyMsg := Message{
 			Type:    e.ChatMessageHistory,
-			Content: "获取历史记录失败！",
+			Content: "err",
 			From:    0,
 			To:      message.From,
 			Time:    time.Now().Unix(),
@@ -202,7 +210,7 @@ func (client *Connection) ChatMessageHistory(message Message) {
 	} else if len(results) == 0 {
 		replyMsg := Message{
 			Type:    e.ChatMessageHistory,
-			Content: "没有更多历史记录了！",
+			Content: "null",
 			From:    0,
 			To:      message.From,
 			Time:    time.Now().Unix(),
@@ -222,6 +230,11 @@ func (client *Connection) ChatMessageHistory(message Message) {
 	//messageHistory, _ := structToJsonBytes(&replyMsg)
 
 	client.conn.WriteJSON(replyMsg)
+
+}
+
+// 有空再写
+func (client *Connection) ChatMessageNew(message Message) {
 
 }
 

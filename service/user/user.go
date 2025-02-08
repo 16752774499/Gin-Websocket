@@ -1,4 +1,4 @@
-package service
+package handleUser
 
 import (
 	"Gin-WebSocket/model"

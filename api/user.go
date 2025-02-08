@@ -3,7 +3,7 @@ package api
 import (
 	"Gin-WebSocket/model"
 	"Gin-WebSocket/serializer"
-	"Gin-WebSocket/service"
+	handleUser "Gin-WebSocket/service/user"
 	"fmt"
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"
@@ -12,7 +12,7 @@ import (
 )
 
 func UserRegister(ctx *gin.Context) {
-	var userRegisterService service.UserService
+	var userRegisterService handleUser.UserService
 	if err := ctx.ShouldBind(&userRegisterService); err != nil {
 		logrus.Info("UserRegister err: ", err)
 		ctx.JSON(400, ErrorResponse(err))
@@ -26,7 +26,7 @@ func UserRegister(ctx *gin.Context) {
 }
 
 func UserLogin(ctx *gin.Context) {
-	var userLoginService service.UserService
+	var userLoginService handleUser.UserService
 	if err := ctx.ShouldBind(&userLoginService); err != nil {
 		logrus.Info("Login err: ", err)
 		ctx.JSON(400, ErrorResponse(err))
@@ -41,7 +41,7 @@ func User(ctx *gin.Context) {
 	if ctx.Request.Method == "GET" {
 
 	} else if ctx.Request.Method == "POST" {
-		var userAvatarService service.UserService
+		var userAvatarService handleUser.UserService
 		if err := ctx.ShouldBind(&userAvatarService); err != nil {
 			logrus.Info("USER POST err: ", err)
 			ctx.JSON(400, ErrorResponse(err))
@@ -70,7 +70,7 @@ func CheckSession(ctx *gin.Context) {
 			Msg:    "无效Session！",
 		})
 	} else {
-		ok, res := service.CheckSession(ret)
+		ok, res := handleUser.CheckSession(ret)
 		if ok {
 			ctx.JSON(200, res)
 		} else {
@@ -95,7 +95,7 @@ func SearchUser(ctx *gin.Context) {
 			Msg:    "不能添加自己为好友！",
 		})
 	} else {
-		res := service.SearchUser(userName)
+		res := handleUser.SearchUser(userName)
 		ctx.JSON(200, res)
 
 	}
@@ -119,7 +119,7 @@ func AddFriend(ctx *gin.Context) {
 		return
 	}
 	logrus.Info("friendId: ", friendId)
-	res := service.AddFriend(int(user.ID), friendId)
+	res := handleUser.AddFriend(int(user.ID), friendId)
 	ctx.JSON(200, res)
 }
 
@@ -128,14 +128,14 @@ func FriendRequests(ctx *gin.Context) {
 	session := sessions.Default(ctx)
 	userName := session.Get("userInfo")
 	model.DB.Where("user_name = ?", userName).First(&user)
-	res := service.FriendRequests(user.ID)
+	res := handleUser.FriendRequests(user.ID)
 	ctx.JSON(200, res)
 }
 
 func HandleRequest(ctx *gin.Context) {
 	requestId := ctx.PostForm("request_id")
 	action := ctx.PostForm("action")
-	if ok, res := service.HandleRequest(requestId, action); ok {
+	if ok, res := handleUser.HandleRequest(requestId, action); ok {
 		ctx.JSON(200, res)
 	} else {
 		ctx.JSON(400, res)
@@ -148,7 +148,7 @@ func Friend(context *gin.Context) {
 	userName := session.Get("userInfo")
 	var user model.User
 	model.DB.Where("user_name = ?", userName).First(&user)
-	res := service.Friends(user.ID)
+	res := handleUser.Friends(user.ID)
 	context.JSON(200, res)
 
 }
