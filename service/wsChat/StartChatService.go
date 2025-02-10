@@ -9,32 +9,36 @@ import (
 func StartChatService() {
 	for {
 		select {
-		case conn := <-server.register:
+		case conn := <-WsServer.register:
 			logrus.Info("用户注册")
-			//将新连接放进server中
-			server.connections[conn.userInfo.ID] = conn
-			logrus.Info("当前在线用户数据：", len(server.connections))
-		case conn := <-server.unregister:
+			WsServer.mu.RLock()
+			//将新连接放进WsServer中
+			WsServer.connections[conn.userInfo.ID] = conn
+			logrus.Info("当前在线用户数据：", len(WsServer.connections))
+			WsServer.mu.RUnlock()
+		case conn := <-WsServer.unregister:
 			//注销,检查是否存在
-			if _, exists := server.connections[conn.userInfo.ID]; exists {
+			if _, exists := WsServer.connections[conn.userInfo.ID]; exists {
 				// 确认连接存在才进行后续操作
-				delete(server.connections, conn.userInfo.ID)
+				WsServer.mu.RLock()
+				delete(WsServer.connections, conn.userInfo.ID)
 				close(conn.send)
 				// 将连接设置为nil，防止后续误操作
 				conn = nil
 				logrus.Info("用户注销")
-				logrus.Info("当前在线用户数据：", len(server.connections))
+				logrus.Info("当前在线用户数据：", len(WsServer.connections))
+				WsServer.mu.RUnlock()
 			}
-		case msg := <-server.sendToMsg:
+		case msg := <-WsServer.sendToMsg:
 			jsonMsg, err := jsonBytesToStruct(msg)
 			if err != nil {
 				logrus.Info("转换失败！", err)
 			}
 			//发送给指定用户
-			if _, exists := server.connections[jsonMsg.To]; exists {
+			if _, exists := WsServer.connections[jsonMsg.To]; exists {
 				//在线
 				logrus.Info("在线：", jsonMsg.To)
-				server.connections[jsonMsg.To].send <- msg //发送给TO
+				WsServer.connections[jsonMsg.To].send <- msg //发送给TO
 				if err := InsertMsg(conf.MongoDBName, createID(strconv.Itoa(jsonMsg.From), strconv.Itoa(jsonMsg.To)), string(msg), 1, int64(3*month)); err != nil {
 					logrus.Error("MangoDB 插入出错！", err)
 				}

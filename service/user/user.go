@@ -4,6 +4,7 @@ import (
 	"Gin-WebSocket/model"
 	tools "Gin-WebSocket/public"
 	"Gin-WebSocket/serializer"
+	"Gin-WebSocket/service/wsChat"
 	"errors"
 	"fmt"
 	"github.com/gin-contrib/sessions"
@@ -56,38 +57,46 @@ func (service *UserService) Login(ctx *gin.Context) serializer.Response {
 	userName := service.UserName
 	var user model.User
 	model.DB.Model(&model.User{}).Where("user_name = ?", userName).First(&user)
+
 	if user.UserName != service.UserName {
 		return serializer.Response{
 			Status: 400,
 			Msg:    "账号不存在，请前往注册！",
 		}
+	}
+
+	if wsChat.WsServer.IsUserOnline(int(user.ID)) {
+		return serializer.Response{
+			Status: 400,
+			Msg:    "用户在别处登录",
+		}
+	}
+
+	//检查密码
+	if user.CheckPassword(service.Password) {
+		data := map[string]interface{}{
+			"id":       user.ID,
+			"userName": user.UserName,
+		}
+		//账号密码正确，设置Session
+		session.Set("userInfo", user.UserName)
+		err := session.Save()
+		if err != nil {
+			return serializer.Response{
+				Status: 500,
+				Msg:    "Seesion 加载失败！",
+				Data:   err.Error(),
+			}
+		}
+		return serializer.Response{
+			Status: 200,
+			Msg:    "登录成功",
+			Data:   data,
+		}
 	} else {
-		//检查密码
-		if user.CheckPassword(service.Password) {
-			data := map[string]interface{}{
-				"id":       user.ID,
-				"userName": user.UserName,
-			}
-			//账号密码正确，设置Session
-			session.Set("userInfo", user.UserName)
-			err := session.Save()
-			if err != nil {
-				return serializer.Response{
-					Status: 500,
-					Msg:    "Seesion 加载失败！",
-					Data:   err.Error(),
-				}
-			}
-			return serializer.Response{
-				Status: 200,
-				Msg:    "登录成功",
-				Data:   data,
-			}
-		} else {
-			return serializer.Response{
-				Status: 400,
-				Msg:    "账号或密码错误！",
-			}
+		return serializer.Response{
+			Status: 400,
+			Msg:    "账号或密码错误！",
 		}
 	}
 

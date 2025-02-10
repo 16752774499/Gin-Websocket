@@ -36,6 +36,7 @@ func UserRouter(router *gin.Engine) {
 	{
 		userRouter.POST("/register", api.UserRegister)
 		userRouter.POST("/login", api.UserLogin)
+
 		userRouter.GET("/check-session", api.CheckSession)
 		userRouter.POST("/search", api.SearchUser)    //搜索用户
 		userRouter.POST("/add-friend", api.AddFriend) //添加好友

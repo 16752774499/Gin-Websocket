@@ -12,6 +12,7 @@ import (
 	"github.com/sirupsen/logrus"
 	"net/http"
 	"strconv"
+	"sync"
 	"time"
 )
 
@@ -47,9 +48,10 @@ type Server struct {
 	register    chan *Connection //注册
 	unregister  chan *Connection //注销
 	sendToMsg   chan []byte      //发送消息信号
+	mu          sync.RWMutex
 }
 
-var server = &Server{
+var WsServer = &Server{
 	connections: make(map[int]*Connection),
 	register:    make(chan *Connection),
 	unregister:  make(chan *Connection),
@@ -76,8 +78,8 @@ func HandleChat(ctx *gin.Context) {
 		send:     make(chan []byte, 256),
 		userInfo: getUserInfo(userId),
 	}
-	//注册进server
-	server.register <- connection
+	//注册进WsServer
+	WsServer.register <- connection
 	//给每个用户创建读写携程
 	go connection.Read()
 	go connection.Write()
@@ -87,7 +89,7 @@ func HandleChat(ctx *gin.Context) {
 func (client *Connection) Read() {
 	//注销
 	defer func() {
-		server.unregister <- client
+		WsServer.unregister <- client
 	}()
 	/*
 			在 WebSocket 协议中，Ping 是一种控制帧 ，用于检查对等方（服务器或客户端）是否仍然连接并且正常运行。PingHandler 是 websocket.Conn 类型的一个方法，用于获取或设置用于处理传入 Ping 帧的处理函数。
@@ -101,7 +103,7 @@ func (client *Connection) Read() {
 		message := new(Message)
 		if err := client.conn.ReadJSON(&message); err != nil {
 			logrus.Info("read fail：", err)
-			server.unregister <- client
+			WsServer.unregister <- client
 			break
 		}
 
@@ -114,13 +116,13 @@ func (client *Connection) Read() {
 			if err != nil {
 				return
 			}
-			server.sendToMsg <- bytes
+			WsServer.sendToMsg <- bytes
 		case e.ChatMessageFile:
 			bytes, err := structToJsonBytes(message)
 			if err != nil {
 				return
 			}
-			server.sendToMsg <- bytes
+			WsServer.sendToMsg <- bytes
 		case e.ChatMessageHistory:
 			//历史消息
 			client.ChatMessageHistory(*message)
@@ -138,7 +140,7 @@ func (client *Connection) Read() {
 func (client *Connection) Write() {
 	// 延迟执行函数，确保在函数退出时执行
 	defer func() {
-		server.unregister <- client
+		WsServer.unregister <- client
 	}()
 
 	// 循环处理消息发送
@@ -238,5 +240,13 @@ func (client *Connection) ChatMessageNew(message Message) {
 
 }
 
-//1738939184901
-//1738942027
+// 1738939184901
+// 1738942027
+func (s *Server) IsUserOnline(userId int) bool {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	if _, ok := s.connections[userId]; ok {
+		return true
+	}
+	return false
+}
