@@ -6,7 +6,7 @@ import (
 )
 
 func FileRouter(router *gin.Engine) {
-	fileRouter := router.Group("/file")
+	fileRouter := router.Group("/HandleFile")
 	{
 		fileRouter.POST("/upload", api.Upload)
 	}
