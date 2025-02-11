@@ -1,0 +1,895 @@
+[36mINFO[0m[2025-02-11 21:59:13.793]/home/xaiohua/GoProject/Gin-Websocket/conf/conf.go:110 Gin-WebSocket/conf.MongoDB() MongoDB connect success                      
+[36mINFO[0m[2025-02-11 21:59:13.800]/home/xaiohua/GoProject/Gin-Websocket/model/init.go:29 Gin-WebSocket/model.Database() Mysql connect success                        
+[36mINFO[0m[2025-02-11 21:59:13.837]/home/xaiohua/GoProject/Gin-Websocket/conf/conf.go:98 Gin-WebSocket/conf.Minio() Minio connect success                        
+[36mINFO[0m[2025-02-11 21:59:45.375]/home/xaiohua/GoProject/Gin-Websocket/conf/conf.go:110 Gin-WebSocket/conf.MongoDB() MongoDB connect success                      
+[36mINFO[0m[2025-02-11 21:59:45.378]/home/xaiohua/GoProject/Gin-Websocket/model/init.go:29 Gin-WebSocket/model.Database() Mysql connect success                        
+[36mINFO[0m[2025-02-11 21:59:45.402]/home/xaiohua/GoProject/Gin-Websocket/conf/conf.go:98 Gin-WebSocket/conf.Minio() Minio connect success                        
+[36mINFO[0m[2025-02-11 21:59:55.981]/home/xaiohua/GoProject/Gin-Websocket/conf/conf.go:110 Gin-WebSocket/conf.MongoDB() MongoDB connect success                      
+[36mINFO[0m[2025-02-11 21:59:55.983]/home/xaiohua/GoProject/Gin-Websocket/model/init.go:29 Gin-WebSocket/model.Database() Mysql connect success                        
+[36mINFO[0m[2025-02-11 21:59:56.009]/home/xaiohua/GoProject/Gin-Websocket/conf/conf.go:98 Gin-WebSocket/conf.Minio() Minio connect success                        
+[36mINFO[0m[2025-02-11 21:59:56.846]/home/xaiohua/GoProject/Gin-Websocket/conf/conf.go:110 Gin-WebSocket/conf.MongoDB() MongoDB connect success                      
+[36mINFO[0m[2025-02-11 21:59:56.849]/home/xaiohua/GoProject/Gin-Websocket/model/init.go:29 Gin-WebSocket/model.Database() Mysql connect success                        
+[36mINFO[0m[2025-02-11 21:59:56.877]/home/xaiohua/GoProject/Gin-Websocket/conf/conf.go:98 Gin-WebSocket/conf.Minio() Minio connect success                        
+[36mINFO[0m[2025-02-11 22:02:06.564]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:02:06.566]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:02:06.567]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:02:13.595]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:02:13.595]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:02:13.595]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：0                                   
+[36mINFO[0m[2025-02-11 22:02:14.814]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:02:14.816]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:02:14.816]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:02:15.157]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:02:15.157]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:02:15.157]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：0                                   
+[36mINFO[0m[2025-02-11 22:02:16.415]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:02:16.417]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:02:16.417]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:02:21.429]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:47 Gin-WebSocket/service.StartChatService() 不在线2                                         
+[36mINFO[0m[2025-02-11 22:03:00.812]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:03:00.815]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:03:00.815]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:03:09.622]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:121 Gin-WebSocket/api.AddFriend() friendId: 4                                  
+[36mINFO[0m[2025-02-11 22:03:09.623]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:173 Gin-WebSocket/service.AddFriend() 加好友！！                                        
+[36mINFO[0m[2025-02-11 22:03:09.648]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:187 Gin-WebSocket/service.AddFriend() 请求成功！:                                       
+[36mINFO[0m[2025-02-11 22:03:21.738]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：4                                         
+[36mINFO[0m[2025-02-11 22:03:21.739]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:04:30.420]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1005 (no status)  
+[36mINFO[0m[2025-02-11 22:04:30.420]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:04:30.420]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:04:30.425]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1005 (no status)  
+[36mINFO[0m[2025-02-11 22:04:30.425]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:04:30.425]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：0                                   
+[36mINFO[0m[2025-02-11 22:04:30.751]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:04:30.766]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:04:30.830]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:04:30.830]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:04:30.831]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:04:30.831]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:04:43.052]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:04:43.052]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:04:43.053]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:04:43.053]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:04:43.053]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:04:43.053]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:05:04.989]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:05:04.990]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:05:04.990]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:05:04.990]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:05:06.353]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:05:06.355]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:05:06.355]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:05:07.840]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:05:07.841]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:05:07.841]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:05:09.053]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:05:09.056]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:05:09.056]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:07:58.350]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1005 (no status)  
+[36mINFO[0m[2025-02-11 22:07:58.350]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:07:58.350]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:07:58.373]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1005 (no status)  
+[36mINFO[0m[2025-02-11 22:07:58.373]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:07:58.373]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：0                                   
+[36mINFO[0m[2025-02-11 22:07:58.690]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:07:58.693]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:07:58.693]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:07:58.722]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:07:58.723]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:07:58.723]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:08:11.053]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:08:11.053]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:08:11.054]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:08:11.054]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:08:11.056]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:08:11.056]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:08:38.735]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:08:38.735]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:08:38.735]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:08:38.735]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:08:40.019]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:08:40.021]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:08:40.021]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:08:42.391]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:08:42.391]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:08:42.391]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:08:42.391]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:08:42.391]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:08:42.845]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:08:42.847]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:08:42.848]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:08:59.082]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:08:59.082]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:08:59.082]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:09:00.324]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:09:00.326]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:09:00.326]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:09:07.489]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:209 Gin-WebSocket/service.(*Connection).ChatMessageHistory() 1 [{4 5 4 sasasassa 1739282601 []}]          
+[36mINFO[0m[2025-02-11 22:09:08.341]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:209 Gin-WebSocket/service.(*Connection).ChatMessageHistory() 0 []                                         
+[36mINFO[0m[2025-02-11 22:09:16.103]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：5                                         
+[36mINFO[0m[2025-02-11 22:09:16.103]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:09:25.226]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:09:25.227]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:09:25.227]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:09:26.483]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:09:26.486]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:09:26.486]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:09:30.438]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：4                                         
+[36mINFO[0m[2025-02-11 22:09:30.439]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:09:35.909]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：4                                         
+[36mINFO[0m[2025-02-11 22:09:35.909]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:09:42.631]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：4                                         
+[36mINFO[0m[2025-02-11 22:09:42.631]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:09:54.006]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:09:54.006]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:09:54.006]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:09:55.232]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:09:55.301]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:09:55.301]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:10:01.166]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：4                                         
+[36mINFO[0m[2025-02-11 22:10:01.166]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:11:39.245]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1005 (no status)  
+[36mINFO[0m[2025-02-11 22:11:39.246]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:11:39.246]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:11:39.260]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1005 (no status)  
+[36mINFO[0m[2025-02-11 22:11:39.260]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:11:39.260]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：0                                   
+[36mINFO[0m[2025-02-11 22:11:39.573]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:11:39.604]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:11:39.611]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:11:39.611]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:11:39.611]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:11:39.611]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:11:52.062]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:11:52.063]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:11:52.064]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:11:52.064]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:11:52.064]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:11:52.064]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:11:59.381]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:11:59.381]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:11:59.381]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:11:59.381]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:12:00.608]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:12:00.609]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:12:00.609]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:12:10.206]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:12:10.206]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:12:10.206]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:12:11.434]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:12:11.437]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:12:11.437]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:12:12.603]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:12:12.604]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:12:12.604]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:12:12.603]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:12:13.037]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:12:13.039]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:12:13.040]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:12:15.697]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：4                                         
+[36mINFO[0m[2025-02-11 22:12:15.698]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:13:51.312]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:13:51.312]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:13:51.312]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:13:51.754]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:13:51.757]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:13:51.757]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:14:50.424]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1005 (no status)  
+[36mINFO[0m[2025-02-11 22:14:50.424]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:14:50.424]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:14:50.442]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1005 (no status)  
+[36mINFO[0m[2025-02-11 22:14:50.442]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:14:50.443]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：0                                   
+[36mINFO[0m[2025-02-11 22:14:50.766]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:14:50.768]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:14:50.768]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:14:50.790]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:14:50.791]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:14:50.791]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:15:03.061]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:15:03.062]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:15:03.062]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:15:03.062]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:15:03.063]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:15:03.063]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:15:31.329]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:15:31.330]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:15:31.330]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:15:31.330]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:15:31.775]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:15:31.778]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:15:31.778]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:15:33.855]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:15:33.855]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:15:33.855]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:15:33.855]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:15:35.149]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:15:35.152]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:15:35.152]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:15:37.476]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：4                                         
+[36mINFO[0m[2025-02-11 22:15:37.477]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:16:11.072]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1005 (no status)  
+[36mINFO[0m[2025-02-11 22:16:11.072]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:16:11.072]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:16:11.087]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1005 (no status)  
+[36mINFO[0m[2025-02-11 22:16:11.088]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:16:11.088]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：0                                   
+[36mINFO[0m[2025-02-11 22:16:11.403]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:16:11.405]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:16:11.406]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:16:11.434]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:16:11.435]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:16:11.435]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:16:15.172]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:16:15.172]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:16:15.172]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:16:16.488]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:16:16.491]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:16:16.491]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:16:16.877]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:16:16.877]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:16:16.877]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:16:17.321]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:16:17.324]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:16:17.324]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:16:24.946]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:16:24.946]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:16:24.946]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:16:26.160]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:16:26.162]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:16:26.162]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:16:32.744]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：4                                         
+[36mINFO[0m[2025-02-11 22:16:32.745]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:18:52.471]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1005 (no status)  
+[36mINFO[0m[2025-02-11 22:18:52.471]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:18:52.471]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:18:52.480]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1005 (no status)  
+[36mINFO[0m[2025-02-11 22:18:52.480]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:18:52.480]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：0                                   
+[36mINFO[0m[2025-02-11 22:18:52.809]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:18:52.812]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:18:52.812]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:18:52.812]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:18:52.813]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:18:52.813]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:19:05.063]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:19:05.063]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:19:05.064]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:19:05.065]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:19:05.066]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:19:05.066]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:19:26.893]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:19:26.893]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:19:26.893]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:19:26.893]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:19:28.214]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:19:28.215]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:19:28.215]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:19:32.101]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：4                                         
+[36mINFO[0m[2025-02-11 22:19:32.101]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:19:36.127]/home/xaiohua/GoProject/Gin-Websocket/service/msgFind.go:93 Gin-WebSocket/service.AppendAndSort() {"type":4,"from":4,"to":5,"content":"sas","time":1739282956} 
+[36mINFO[0m[2025-02-11 22:19:36.127]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:209 Gin-WebSocket/service.(*Connection).ChatMessageHistory() 9 [{4 5 4 🤪 1739283392 []} {4 5 4 12121 1739283337 []} {4 5 4 sasasa 1739283135 []} {4 5 4 {"type":"file","fileName":"Web后台发布采集任务——使用Clipchamp制作.mp4","fileSize":45516963,"fileType":"video/mp4","fileUrl":"http://localhost:1900/xaiohua/9419ff67-c18c-4dfc-a646-1e091ba393d3.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZbK6pEyviB1rd1F54Laz%2F20250211%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250211T141001Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=cc8dd1915b7755757a870709dc4c99538ddd335cd811d38d59a90b8580d310e2"} 1739283001 []} {4 5 4 12121 1739282982 []} {4 5 4 sasas 1739282975 []} {4 5 4 sasa 1739282970 []} {4 4 5 sas 1739282956 []} {4 5 4 sasasassa 1739282601 []}] 
+[36mINFO[0m[2025-02-11 22:19:42.310]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：4                                         
+[36mINFO[0m[2025-02-11 22:19:42.310]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:19:44.554]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：4                                         
+[36mINFO[0m[2025-02-11 22:19:44.554]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:19:47.890]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：4                                         
+[36mINFO[0m[2025-02-11 22:19:47.890]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:21:38.857]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:21:38.857]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:21:38.857]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:21:38.858]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:21:39.303]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:21:39.306]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:21:39.306]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:21:49.054]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:21:49.054]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:21:49.054]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:21:50.419]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:21:50.421]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:21:50.421]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:22:02.041]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：4                                         
+[36mINFO[0m[2025-02-11 22:22:02.042]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:23:07.838]/home/xaiohua/GoProject/Gin-Websocket/conf/conf.go:110 Gin-WebSocket/conf.MongoDB() MongoDB connect success                      
+[36mINFO[0m[2025-02-11 22:23:07.842]/home/xaiohua/GoProject/Gin-Websocket/model/init.go:29 Gin-WebSocket/model.Database() Mysql connect success                        
+[36mINFO[0m[2025-02-11 22:23:07.871]/home/xaiohua/GoProject/Gin-Websocket/conf/conf.go:98 Gin-WebSocket/conf.Minio() Minio connect success                        
+[36mINFO[0m[2025-02-11 22:23:12.755]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:108 Gin-WebSocket/service.(*UserService).POST() 4                                            
+[36mINFO[0m[2025-02-11 22:23:13.123]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:23:13.126]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:23:13.126]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:23:18.648]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:108 Gin-WebSocket/service.(*UserService).POST() 0                                            
+[36mINFO[0m[2025-02-11 22:23:19.061]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:23:19.063]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:23:19.063]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:25:14.621]/home/xaiohua/GoProject/Gin-Websocket/conf/conf.go:110 Gin-WebSocket/conf.MongoDB() MongoDB connect success                      
+[36mINFO[0m[2025-02-11 22:25:14.625]/home/xaiohua/GoProject/Gin-Websocket/model/init.go:29 Gin-WebSocket/model.Database() Mysql connect success                        
+[36mINFO[0m[2025-02-11 22:25:14.655]/home/xaiohua/GoProject/Gin-Websocket/conf/conf.go:98 Gin-WebSocket/conf.Minio() Minio connect success                        
+[36mINFO[0m[2025-02-11 22:25:19.246]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:108 Gin-WebSocket/service.(*UserService).POST() &{4  }                                       
+[36mINFO[0m[2025-02-11 22:25:19.613]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:25:19.617]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:25:19.617]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:25:24.701]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:108 Gin-WebSocket/service.(*UserService).POST() &{0  }                                       
+[36mINFO[0m[2025-02-11 22:25:25.063]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:25:25.064]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:25:25.064]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:26:23.758]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:108 Gin-WebSocket/service.(*UserService).POST() &{0  }                                       
+[36mINFO[0m[2025-02-11 22:26:24.204]/home/xaiohua/GoProject/Gin-Websocket/conf/conf.go:110 Gin-WebSocket/conf.MongoDB() MongoDB connect success                      
+[36mINFO[0m[2025-02-11 22:26:24.207]/home/xaiohua/GoProject/Gin-Websocket/model/init.go:29 Gin-WebSocket/model.Database() Mysql connect success                        
+[36mINFO[0m[2025-02-11 22:26:24.236]/home/xaiohua/GoProject/Gin-Websocket/conf/conf.go:98 Gin-WebSocket/conf.Minio() Minio connect success                        
+[36mINFO[0m[2025-02-11 22:26:31.515]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:50 Gin-WebSocket/api.User() {0  }                                        
+[36mINFO[0m[2025-02-11 22:26:31.515]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:108 Gin-WebSocket/service.(*UserService).POST() &{0  }                                       
+[36mINFO[0m[2025-02-11 22:26:35.052]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:26:35.052]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:26:35.053]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:26:35.053]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:26:35.055]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:26:35.055]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:28:09.530]/home/xaiohua/GoProject/Gin-Websocket/conf/conf.go:110 Gin-WebSocket/conf.MongoDB() MongoDB connect success                      
+[36mINFO[0m[2025-02-11 22:28:09.533]/home/xaiohua/GoProject/Gin-Websocket/model/init.go:29 Gin-WebSocket/model.Database() Mysql connect success                        
+[36mINFO[0m[2025-02-11 22:28:09.562]/home/xaiohua/GoProject/Gin-Websocket/conf/conf.go:98 Gin-WebSocket/conf.Minio() Minio connect success                        
+[36mINFO[0m[2025-02-11 22:28:10.372]/home/xaiohua/GoProject/Gin-Websocket/conf/conf.go:110 Gin-WebSocket/conf.MongoDB() MongoDB connect success                      
+[36mINFO[0m[2025-02-11 22:28:10.374]/home/xaiohua/GoProject/Gin-Websocket/model/init.go:29 Gin-WebSocket/model.Database() Mysql connect success                        
+[36mINFO[0m[2025-02-11 22:28:10.396]/home/xaiohua/GoProject/Gin-Websocket/conf/conf.go:98 Gin-WebSocket/conf.Minio() Minio connect success                        
+[36mINFO[0m[2025-02-11 22:28:20.065]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:28:20.066]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:28:20.067]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:28:20.067]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:28:20.070]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:28:20.070]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:28:59.105]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1005 (no status)  
+[36mINFO[0m[2025-02-11 22:28:59.105]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:28:59.105]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:29:07.539]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {4  }                                        
+[36mINFO[0m[2025-02-11 22:29:07.539]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:108 Gin-WebSocket/service.(*UserService).POST() &{4  }                                       
+[36mINFO[0m[2025-02-11 22:29:07.902]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:29:07.903]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:29:07.903]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:29:13.665]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {0  }                                        
+[36mINFO[0m[2025-02-11 22:29:13.665]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:108 Gin-WebSocket/service.(*UserService).POST() &{0  }                                       
+[36mINFO[0m[2025-02-11 22:30:30.010]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1005 (no status)  
+[36mINFO[0m[2025-02-11 22:30:30.011]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:30:30.011]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:30:30.013]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1005 (no status)  
+[36mINFO[0m[2025-02-11 22:30:30.013]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:30:30.013]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：0                                   
+[36mINFO[0m[2025-02-11 22:30:30.632]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {4  }                                        
+[36mINFO[0m[2025-02-11 22:30:30.632]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:108 Gin-WebSocket/service.(*UserService).POST() &{4  }                                       
+[36mINFO[0m[2025-02-11 22:30:30.632]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {5  }                                        
+[36mINFO[0m[2025-02-11 22:30:30.632]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:108 Gin-WebSocket/service.(*UserService).POST() &{5  }                                       
+[36mINFO[0m[2025-02-11 22:30:30.958]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:30:30.960]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:30:30.962]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:30:30.962]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:30:30.963]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:30:30.963]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:30:43.060]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:30:43.061]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:30:43.061]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:30:43.062]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:30:43.062]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:30:43.062]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:30:45.668]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1005 (no status)  
+[36mINFO[0m[2025-02-11 22:30:45.669]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:30:45.669]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:30:45.670]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1005 (no status)  
+[36mINFO[0m[2025-02-11 22:30:45.670]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:30:45.670]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：0                                   
+[36mINFO[0m[2025-02-11 22:30:45.670]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {5  }                                        
+[36mINFO[0m[2025-02-11 22:30:45.671]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:108 Gin-WebSocket/service.(*UserService).POST() &{5  }                                       
+[36mINFO[0m[2025-02-11 22:30:45.674]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {4  }                                        
+[36mINFO[0m[2025-02-11 22:30:45.674]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:108 Gin-WebSocket/service.(*UserService).POST() &{4  }                                       
+[36mINFO[0m[2025-02-11 22:30:46.001]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:30:46.002]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:30:46.004]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:30:46.004]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:30:46.004]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:30:46.005]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:30:58.060]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:30:58.060]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:30:58.061]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:30:58.062]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:30:58.063]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:30:58.063]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:31:04.730]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {5  }                                        
+[36mINFO[0m[2025-02-11 22:31:04.730]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:108 Gin-WebSocket/service.(*UserService).POST() &{5  }                                       
+[36mINFO[0m[2025-02-11 22:31:06.086]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:31:06.086]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:31:06.086]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:31:06.086]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:31:06.086]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:31:07.028]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {4  }                                        
+[36mINFO[0m[2025-02-11 22:31:07.028]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:108 Gin-WebSocket/service.(*UserService).POST() &{4  }                                       
+[36mINFO[0m[2025-02-11 22:31:07.420]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:31:07.422]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:31:07.422]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:31:28.984]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:31:28.984]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:31:28.984]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:31:29.819]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {4  }                                        
+[36mINFO[0m[2025-02-11 22:31:29.820]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:108 Gin-WebSocket/service.(*UserService).POST() &{4  }                                       
+[36mINFO[0m[2025-02-11 22:31:30.233]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:31:30.237]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:31:30.237]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:31:31.508]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:31:31.508]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:31:31.508]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:31:31.508]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:31:31.508]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:31:31.628]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {5  }                                        
+[36mINFO[0m[2025-02-11 22:31:31.628]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:108 Gin-WebSocket/service.(*UserService).POST() &{5  }                                       
+[36mINFO[0m[2025-02-11 22:31:31.962]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:31:31.964]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:31:31.964]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:31:32.008]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {4  }                                        
+[36mINFO[0m[2025-02-11 22:31:32.008]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:108 Gin-WebSocket/service.(*UserService).POST() &{4  }                                       
+[36mINFO[0m[2025-02-11 22:31:34.852]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：4                                         
+[36mINFO[0m[2025-02-11 22:31:34.853]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:31:34.860]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {5  }                                        
+[36mINFO[0m[2025-02-11 22:31:34.860]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:108 Gin-WebSocket/service.(*UserService).POST() &{5  }                                       
+[36mINFO[0m[2025-02-11 22:31:36.879]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {5  }                                        
+[36mINFO[0m[2025-02-11 22:31:36.879]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:108 Gin-WebSocket/service.(*UserService).POST() &{5  }                                       
+[36mINFO[0m[2025-02-11 22:33:28.302]/home/xaiohua/GoProject/Gin-Websocket/conf/conf.go:110 Gin-WebSocket/conf.MongoDB() MongoDB connect success                      
+[36mINFO[0m[2025-02-11 22:33:28.305]/home/xaiohua/GoProject/Gin-Websocket/model/init.go:29 Gin-WebSocket/model.Database() Mysql connect success                        
+[36mINFO[0m[2025-02-11 22:33:28.331]/home/xaiohua/GoProject/Gin-Websocket/conf/conf.go:98 Gin-WebSocket/conf.Minio() Minio connect success                        
+[36mINFO[0m[2025-02-11 22:33:31.577]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {5  }                                        
+[36mINFO[0m[2025-02-11 22:33:31.577]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:108 Gin-WebSocket/service.(*UserService).POST() &{5  }                                       
+[36mINFO[0m[2025-02-11 22:33:38.614]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:33:38.616]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:33:38.616]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:33:39.068]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:33:39.069]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:33:39.069]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:34:14.894]/home/xaiohua/GoProject/Gin-Websocket/conf/conf.go:110 Gin-WebSocket/conf.MongoDB() MongoDB connect success                      
+[36mINFO[0m[2025-02-11 22:34:14.898]/home/xaiohua/GoProject/Gin-Websocket/model/init.go:29 Gin-WebSocket/model.Database() Mysql connect success                        
+[36mINFO[0m[2025-02-11 22:34:14.931]/home/xaiohua/GoProject/Gin-Websocket/conf/conf.go:98 Gin-WebSocket/conf.Minio() Minio connect success                        
+[36mINFO[0m[2025-02-11 22:34:16.755]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {5  }                                        
+[36mINFO[0m[2025-02-11 22:34:16.755]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:108 Gin-WebSocket/service.(*UserService).POST() &{5  }                                       
+[36mINFO[0m[2025-02-11 22:34:18.403]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {0  }                                        
+[36mINFO[0m[2025-02-11 22:34:18.403]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:108 Gin-WebSocket/service.(*UserService).POST() &{0  }                                       
+[36mINFO[0m[2025-02-11 22:34:19.425]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {0  }                                        
+[36mINFO[0m[2025-02-11 22:34:19.425]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:108 Gin-WebSocket/service.(*UserService).POST() &{0  }                                       
+[36mINFO[0m[2025-02-11 22:34:20.013]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {0  }                                        
+[36mINFO[0m[2025-02-11 22:34:20.013]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:108 Gin-WebSocket/service.(*UserService).POST() &{0  }                                       
+[36mINFO[0m[2025-02-11 22:34:20.634]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {0  }                                        
+[36mINFO[0m[2025-02-11 22:34:20.634]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:108 Gin-WebSocket/service.(*UserService).POST() &{0  }                                       
+[36mINFO[0m[2025-02-11 22:34:25.213]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:34:25.214]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:34:25.214]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:34:26.056]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:34:26.057]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:34:26.057]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:36:01.850]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:36:01.850]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:36:01.850]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:36:02.690]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {4  }                                        
+[36mINFO[0m[2025-02-11 22:36:02.690]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:108 Gin-WebSocket/service.(*UserService).POST() &{4  }                                       
+[36mINFO[0m[2025-02-11 22:36:03.134]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:36:03.136]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:36:03.136]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:36:15.844]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:36:15.845]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:36:15.845]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:36:16.288]/home/xaiohua/GoProject/Gin-Websocket/conf/conf.go:110 Gin-WebSocket/conf.MongoDB() MongoDB connect success                      
+[36mINFO[0m[2025-02-11 22:36:16.291]/home/xaiohua/GoProject/Gin-Websocket/model/init.go:29 Gin-WebSocket/model.Database() Mysql connect success                        
+[36mINFO[0m[2025-02-11 22:36:16.323]/home/xaiohua/GoProject/Gin-Websocket/conf/conf.go:98 Gin-WebSocket/conf.Minio() Minio connect success                        
+[36mINFO[0m[2025-02-11 22:36:17.254]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {4  }                                        
+[36mINFO[0m[2025-02-11 22:36:17.254]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:108 Gin-WebSocket/service.(*UserService).POST() 4                                            
+[36mINFO[0m[2025-02-11 22:36:17.586]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:36:17.589]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:36:17.590]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:36:27.059]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:36:27.061]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:36:27.061]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:38:03.167]/home/xaiohua/GoProject/Gin-Websocket/conf/conf.go:110 Gin-WebSocket/conf.MongoDB() MongoDB connect success                      
+[36mINFO[0m[2025-02-11 22:38:03.170]/home/xaiohua/GoProject/Gin-Websocket/model/init.go:29 Gin-WebSocket/model.Database() Mysql connect success                        
+[36mINFO[0m[2025-02-11 22:38:03.198]/home/xaiohua/GoProject/Gin-Websocket/conf/conf.go:98 Gin-WebSocket/conf.Minio() Minio connect success                        
+[36mINFO[0m[2025-02-11 22:38:14.051]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:38:14.052]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:38:14.052]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:38:14.052]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:38:14.053]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:38:14.053]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:39:31.372]/home/xaiohua/GoProject/Gin-Websocket/conf/conf.go:110 Gin-WebSocket/conf.MongoDB() MongoDB connect success                      
+[36mINFO[0m[2025-02-11 22:39:31.375]/home/xaiohua/GoProject/Gin-Websocket/model/init.go:29 Gin-WebSocket/model.Database() Mysql connect success                        
+[36mINFO[0m[2025-02-11 22:39:31.401]/home/xaiohua/GoProject/Gin-Websocket/conf/conf.go:98 Gin-WebSocket/conf.Minio() Minio connect success                        
+[36mINFO[0m[2025-02-11 22:39:32.309]/home/xaiohua/GoProject/Gin-Websocket/conf/conf.go:110 Gin-WebSocket/conf.MongoDB() MongoDB connect success                      
+[36mINFO[0m[2025-02-11 22:39:32.312]/home/xaiohua/GoProject/Gin-Websocket/model/init.go:29 Gin-WebSocket/model.Database() Mysql connect success                        
+[36mINFO[0m[2025-02-11 22:39:32.333]/home/xaiohua/GoProject/Gin-Websocket/conf/conf.go:98 Gin-WebSocket/conf.Minio() Minio connect success                        
+[36mINFO[0m[2025-02-11 22:39:35.575]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {4  }                                        
+[36mINFO[0m[2025-02-11 22:39:35.575]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 4                                            
+[36mINFO[0m[2025-02-11 22:39:35.920]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:39:35.926]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:39:35.926]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:39:37.491]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {0  }                                        
+[36mINFO[0m[2025-02-11 22:39:37.491]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 0                                            
+[36mINFO[0m[2025-02-11 22:39:38.334]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {0  }                                        
+[36mINFO[0m[2025-02-11 22:39:38.334]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 0                                            
+[36mINFO[0m[2025-02-11 22:39:38.858]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {0  }                                        
+[36mINFO[0m[2025-02-11 22:39:38.858]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 0                                            
+[36mINFO[0m[2025-02-11 22:39:39.695]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {0  }                                        
+[36mINFO[0m[2025-02-11 22:39:39.695]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 0                                            
+[36mINFO[0m[2025-02-11 22:39:40.182]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {0  }                                        
+[36mINFO[0m[2025-02-11 22:39:40.182]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 0                                            
+[36mINFO[0m[2025-02-11 22:39:40.583]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {0  }                                        
+[36mINFO[0m[2025-02-11 22:39:40.583]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 0                                            
+[36mINFO[0m[2025-02-11 22:39:41.121]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {0  }                                        
+[36mINFO[0m[2025-02-11 22:39:41.121]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 0                                            
+[36mINFO[0m[2025-02-11 22:39:41.622]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {0  }                                        
+[36mINFO[0m[2025-02-11 22:39:41.622]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 0                                            
+[36mINFO[0m[2025-02-11 22:39:41.995]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {0  }                                        
+[36mINFO[0m[2025-02-11 22:39:41.995]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 0                                            
+[36mINFO[0m[2025-02-11 22:39:42.064]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:39:42.065]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:39:42.065]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:39:42.434]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {0  }                                        
+[36mINFO[0m[2025-02-11 22:39:42.434]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 0                                            
+[36mINFO[0m[2025-02-11 22:42:08.514]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1005 (no status)  
+[36mINFO[0m[2025-02-11 22:42:08.514]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:42:08.514]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:42:08.526]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1005 (no status)  
+[36mINFO[0m[2025-02-11 22:42:08.526]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:42:08.526]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：0                                   
+[36mINFO[0m[2025-02-11 22:42:08.530]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {4  }                                        
+[36mINFO[0m[2025-02-11 22:42:08.530]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 4                                            
+[36mINFO[0m[2025-02-11 22:42:08.863]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:42:08.865]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:42:08.865]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:42:09.127]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {5  }                                        
+[36mINFO[0m[2025-02-11 22:42:09.127]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 5                                            
+[36mINFO[0m[2025-02-11 22:42:09.453]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:42:09.456]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:42:09.456]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:42:21.064]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:42:21.065]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:42:21.065]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:42:21.065]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:42:21.067]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:42:21.068]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:42:38.850]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:42:38.850]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:42:38.850]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:42:38.850]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:42:39.783]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {4  }                                        
+[36mINFO[0m[2025-02-11 22:42:39.783]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 4                                            
+[36mINFO[0m[2025-02-11 22:42:40.175]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:42:40.176]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:42:40.176]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:42:54.999]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:42:54.999]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:42:54.999]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:42:55.785]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {4  }                                        
+[36mINFO[0m[2025-02-11 22:42:55.785]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 4                                            
+[36mINFO[0m[2025-02-11 22:42:56.205]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:42:56.207]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:42:56.207]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:42:57.032]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:42:57.032]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:42:57.032]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:42:57.799]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {4  }                                        
+[36mINFO[0m[2025-02-11 22:42:57.800]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 4                                            
+[36mINFO[0m[2025-02-11 22:42:58.217]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:42:58.220]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:42:58.221]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:43:52.064]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1005 (no status)  
+[36mINFO[0m[2025-02-11 22:43:52.064]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:43:52.064]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:43:52.067]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {5  }                                        
+[36mINFO[0m[2025-02-11 22:43:52.067]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 5                                            
+[36mINFO[0m[2025-02-11 22:43:52.075]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1005 (no status)  
+[36mINFO[0m[2025-02-11 22:43:52.075]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:43:52.075]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：0                                   
+[36mINFO[0m[2025-02-11 22:43:52.081]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {4  }                                        
+[36mINFO[0m[2025-02-11 22:43:52.081]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 4                                            
+[36mINFO[0m[2025-02-11 22:43:52.402]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:43:52.404]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:43:52.405]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:43:52.405]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:43:52.407]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:43:52.407]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:44:05.051]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:44:05.055]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:44:05.055]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:44:05.059]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:44:05.060]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:44:05.060]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:44:26.132]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:44:26.133]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:44:26.133]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:44:26.132]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:44:27.102]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {4  }                                        
+[36mINFO[0m[2025-02-11 22:44:27.102]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 4                                            
+[36mINFO[0m[2025-02-11 22:44:27.454]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:44:27.455]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:44:27.455]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:44:35.348]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:44:35.348]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:44:35.348]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:44:35.348]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:44:35.348]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:44:35.457]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {5  }                                        
+[36mINFO[0m[2025-02-11 22:44:35.457]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 5                                            
+[36mINFO[0m[2025-02-11 22:44:35.792]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:44:35.795]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:44:35.795]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:44:36.101]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:44:36.101]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:44:36.101]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:44:36.178]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {5  }                                        
+[36mINFO[0m[2025-02-11 22:44:36.178]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 5                                            
+[36mINFO[0m[2025-02-11 22:44:36.510]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:44:36.512]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:44:36.512]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:44:36.650]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:44:36.650]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:44:36.650]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:44:36.714]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {5  }                                        
+[36mINFO[0m[2025-02-11 22:44:36.714]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 5                                            
+[36mINFO[0m[2025-02-11 22:44:37.043]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:44:37.045]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:44:37.045]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:44:37.301]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:44:37.301]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:44:37.301]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:44:37.362]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {5  }                                        
+[36mINFO[0m[2025-02-11 22:44:37.362]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 5                                            
+[36mINFO[0m[2025-02-11 22:44:37.698]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:44:37.700]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:44:37.700]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:44:37.839]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {4  }                                        
+[36mINFO[0m[2025-02-11 22:44:37.839]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 4                                            
+[36mINFO[0m[2025-02-11 22:44:40.172]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：4                                         
+[36mINFO[0m[2025-02-11 22:44:40.173]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:44:40.178]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {5  }                                        
+[36mINFO[0m[2025-02-11 22:44:40.178]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 5                                            
+[36mINFO[0m[2025-02-11 22:44:41.782]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {5  }                                        
+[36mINFO[0m[2025-02-11 22:44:41.782]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 5                                            
+[36mINFO[0m[2025-02-11 22:45:08.904]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：5                                         
+[36mINFO[0m[2025-02-11 22:45:08.904]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:45:13.532]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：4                                         
+[36mINFO[0m[2025-02-11 22:45:13.533]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:45:16.781]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：4                                         
+[36mINFO[0m[2025-02-11 22:45:16.781]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:45:37.066]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:45:37.066]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:45:37.066]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:45:37.767]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:45:37.767]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:45:37.767]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：0                                   
+[36mINFO[0m[2025-02-11 22:45:37.983]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {5  }                                        
+[36mINFO[0m[2025-02-11 22:45:37.983]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 5                                            
+[36mINFO[0m[2025-02-11 22:45:38.030]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {4  }                                        
+[36mINFO[0m[2025-02-11 22:45:38.030]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 4                                            
+[36mINFO[0m[2025-02-11 22:45:38.309]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:45:38.312]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:45:38.312]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:45:38.417]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:45:38.419]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:45:38.419]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:45:51.917]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {4  }                                        
+[36mINFO[0m[2025-02-11 22:45:51.917]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 4                                            
+[36mINFO[0m[2025-02-11 22:45:54.420]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：4                                         
+[36mINFO[0m[2025-02-11 22:45:54.421]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:45:55.975]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {5  }                                        
+[36mINFO[0m[2025-02-11 22:45:55.976]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 5                                            
+[36mINFO[0m[2025-02-11 22:46:18.655]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:46:18.655]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:46:18.655]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:46:19.444]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {4  }                                        
+[36mINFO[0m[2025-02-11 22:46:19.444]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 4                                            
+[36mINFO[0m[2025-02-11 22:46:19.862]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:46:19.864]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:46:19.864]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:46:25.037]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：4                                         
+[36mINFO[0m[2025-02-11 22:46:25.037]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:46:25.045]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {5  }                                        
+[36mINFO[0m[2025-02-11 22:46:25.046]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 5                                            
+[36mINFO[0m[2025-02-11 22:46:35.034]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {5  }                                        
+[36mINFO[0m[2025-02-11 22:46:35.034]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 5                                            
+[36mINFO[0m[2025-02-11 22:47:59.350]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1005 (no status)  
+[36mINFO[0m[2025-02-11 22:47:59.351]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:47:59.351]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:47:59.353]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {5  }                                        
+[36mINFO[0m[2025-02-11 22:47:59.353]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 5                                            
+[36mINFO[0m[2025-02-11 22:47:59.360]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1005 (no status)  
+[36mINFO[0m[2025-02-11 22:47:59.360]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:47:59.360]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：0                                   
+[36mINFO[0m[2025-02-11 22:47:59.364]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {4  }                                        
+[36mINFO[0m[2025-02-11 22:47:59.364]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 4                                            
+[36mINFO[0m[2025-02-11 22:47:59.688]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:47:59.690]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:47:59.691]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:47:59.704]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:47:59.705]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:47:59.705]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:48:12.054]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:48:12.055]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:48:12.055]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:48:12.055]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:48:12.058]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:48:12.058]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:48:15.378]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:48:15.378]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:48:15.378]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:48:15.378]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:48:16.266]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {4  }                                        
+[36mINFO[0m[2025-02-11 22:48:16.267]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 4                                            
+[36mINFO[0m[2025-02-11 22:48:16.679]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:48:16.680]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:48:16.680]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:48:19.776]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {4  }                                        
+[36mINFO[0m[2025-02-11 22:48:19.776]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 4                                            
+[36mINFO[0m[2025-02-11 22:48:21.355]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：4                                         
+[36mINFO[0m[2025-02-11 22:48:21.356]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:48:22.500]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {5  }                                        
+[36mINFO[0m[2025-02-11 22:48:22.500]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 5                                            
+[36mINFO[0m[2025-02-11 22:48:25.169]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:48:25.169]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:48:25.169]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:48:25.996]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {4  }                                        
+[36mINFO[0m[2025-02-11 22:48:25.996]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 4                                            
+[36mINFO[0m[2025-02-11 22:48:26.403]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:48:26.406]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:48:26.406]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:48:27.773]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：4                                         
+[36mINFO[0m[2025-02-11 22:48:27.774]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:48:34.266]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:48:34.266]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:48:34.266]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:48:35.162]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {4  }                                        
+[36mINFO[0m[2025-02-11 22:48:35.162]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 4                                            
+[36mINFO[0m[2025-02-11 22:48:35.587]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:48:35.591]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:48:35.591]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:48:37.394]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：4                                         
+[36mINFO[0m[2025-02-11 22:48:37.394]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:48:37.400]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {5  }                                        
+[36mINFO[0m[2025-02-11 22:48:37.400]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 5                                            
+[36mINFO[0m[2025-02-11 22:48:39.888]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：4                                         
+[36mINFO[0m[2025-02-11 22:48:39.888]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:48:42.152]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：4                                         
+[36mINFO[0m[2025-02-11 22:48:42.152]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:48:43.018]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {5  }                                        
+[36mINFO[0m[2025-02-11 22:48:43.018]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 5                                            
+[36mINFO[0m[2025-02-11 22:48:46.622]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：5                                         
+[36mINFO[0m[2025-02-11 22:48:46.622]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:48:53.582]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：5                                         
+[36mINFO[0m[2025-02-11 22:48:53.582]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:49:01.257]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：4                                         
+[36mINFO[0m[2025-02-11 22:49:01.257]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:49:04.238]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：5                                         
+[36mINFO[0m[2025-02-11 22:49:04.238]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:49:06.505]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:49:06.505]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:49:06.505]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:49:06.505]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:49:06.619]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {5  }                                        
+[36mINFO[0m[2025-02-11 22:49:06.619]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 5                                            
+[36mINFO[0m[2025-02-11 22:49:06.957]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:49:06.960]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:49:06.960]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:49:07.506]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {4  }                                        
+[36mINFO[0m[2025-02-11 22:49:07.506]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 4                                            
+[36mINFO[0m[2025-02-11 22:49:10.710]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：5                                         
+[36mINFO[0m[2025-02-11 22:49:10.710]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:49:11.948]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：5                                         
+[36mINFO[0m[2025-02-11 22:49:11.949]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:49:12.893]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：5                                         
+[36mINFO[0m[2025-02-11 22:49:12.893]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:49:13.726]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：5                                         
+[36mINFO[0m[2025-02-11 22:49:13.726]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:49:15.311]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：4                                         
+[36mINFO[0m[2025-02-11 22:49:15.311]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:49:16.123]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：4                                         
+[36mINFO[0m[2025-02-11 22:49:16.124]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:49:16.798]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：4                                         
+[36mINFO[0m[2025-02-11 22:49:16.799]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:49:17.651]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：4                                         
+[36mINFO[0m[2025-02-11 22:49:17.651]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:49:18.528]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：4                                         
+[36mINFO[0m[2025-02-11 22:49:18.528]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:49:19.518]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：4                                         
+[36mINFO[0m[2025-02-11 22:49:19.519]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:49:22.320]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：5                                         
+[36mINFO[0m[2025-02-11 22:49:22.320]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:49:23.399]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：5                                         
+[36mINFO[0m[2025-02-11 22:49:23.400]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:49:25.116]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:49:25.116]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:49:25.116]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:49:25.194]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {5  }                                        
+[36mINFO[0m[2025-02-11 22:49:25.194]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 5                                            
+[36mINFO[0m[2025-02-11 22:49:25.517]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:49:25.520]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:49:25.520]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:49:26.198]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {4  }                                        
+[36mINFO[0m[2025-02-11 22:49:26.198]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 4                                            
+[36mINFO[0m[2025-02-11 22:49:27.731]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：4                                         
+[36mINFO[0m[2025-02-11 22:49:27.731]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:49:29.365]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：5                                         
+[36mINFO[0m[2025-02-11 22:49:29.365]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:49:30.387]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：5                                         
+[36mINFO[0m[2025-02-11 22:49:30.387]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:49:32.142]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：4                                         
+[36mINFO[0m[2025-02-11 22:49:32.142]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:49:35.325]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：4                                         
+[36mINFO[0m[2025-02-11 22:49:35.325]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:49:37.912]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：5                                         
+[36mINFO[0m[2025-02-11 22:49:37.913]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:50:58.502]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1005 (no status)  
+[36mINFO[0m[2025-02-11 22:50:58.503]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:50:58.503]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:50:58.505]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {5  }                                        
+[36mINFO[0m[2025-02-11 22:50:58.505]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 5                                            
+[36mINFO[0m[2025-02-11 22:50:58.516]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1005 (no status)  
+[36mINFO[0m[2025-02-11 22:50:58.516]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:50:58.516]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：0                                   
+[36mINFO[0m[2025-02-11 22:50:58.520]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {4  }                                        
+[36mINFO[0m[2025-02-11 22:50:58.520]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 4                                            
+[36mINFO[0m[2025-02-11 22:50:58.836]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:50:58.839]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:50:58.839]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:50:58.851]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:50:58.852]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:50:58.852]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:51:11.057]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:51:11.057]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:51:11.058]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:51:11.058]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:51:11.061]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:51:11.061]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:51:41.180]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {4  }                                        
+[36mINFO[0m[2025-02-11 22:51:41.180]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 4                                            
+[36mINFO[0m[2025-02-11 22:51:43.450]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {5  }                                        
+[36mINFO[0m[2025-02-11 22:51:43.450]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 5                                            
+[36mINFO[0m[2025-02-11 22:51:46.533]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：4                                         
+[36mINFO[0m[2025-02-11 22:51:46.534]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:51:49.249]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:51:49.249]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:51:49.249]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:51:49.249]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:51:50.305]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {4  }                                        
+[36mINFO[0m[2025-02-11 22:51:50.305]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 4                                            
+[36mINFO[0m[2025-02-11 22:51:50.693]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:51:50.695]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:51:50.695]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:51:50.777]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:51:50.777]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:28 Gin-WebSocket/service.StartChatService() 用户注销                                         
+[36mINFO[0m[2025-02-11 22:51:50.777]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:29 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:51:50.777]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:105 Gin-WebSocket/service.(*Connection).Read() read fail：websocket: close 1001 (going away) 
+[36mINFO[0m[2025-02-11 22:51:50.903]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {5  }                                        
+[36mINFO[0m[2025-02-11 22:51:50.903]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 5                                            
+[36mINFO[0m[2025-02-11 22:51:51.233]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:65 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:51:51.236]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:51:51.236]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   
+[36mINFO[0m[2025-02-11 22:51:51.777]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {5  }                                        
+[36mINFO[0m[2025-02-11 22:51:51.777]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 5                                            
+[36mINFO[0m[2025-02-11 22:51:53.206]/home/xaiohua/GoProject/Gin-Websocket/api/user.go:47 Gin-WebSocket/api.User() {4  }                                        
+[36mINFO[0m[2025-02-11 22:51:53.206]/home/xaiohua/GoProject/Gin-Websocket/service/user.go:112 Gin-WebSocket/service.(*UserService).POST() 4                                            
+[36mINFO[0m[2025-02-11 22:51:57.100]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：4                                         
+[36mINFO[0m[2025-02-11 22:51:57.101]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:52:00.981]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：5                                         
+[36mINFO[0m[2025-02-11 22:52:00.982]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:52:02.797]/home/xaiohua/GoProject/Gin-Websocket/service/msgFind.go:93 Gin-WebSocket/service.AppendAndSort() {"type":4,"from":4,"to":5,"content":"😗","time":1739285344} 
+[36mINFO[0m[2025-02-11 22:52:02.797]/home/xaiohua/GoProject/Gin-Websocket/service/msgFind.go:93 Gin-WebSocket/service.AppendAndSort() {"type":4,"from":4,"to":5,"content":"{\"type\":\"file\",\"fileName\":\"Chrome扩展自定义采集——使用Clipchamp制作.mp4\",\"fileSize\":62727996,\"fileType\":\"video/mp4\",\"fileUrl\":\"http://localhost:1900/xaiohua/15110f16-3e73-4340-b1c1-7aa0ea5830d7.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=ZbK6pEyviB1rd1F54Laz%2F20250211%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20250211T144853Z\u0026X-Amz-Expires=604800\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=defeff024a86148ed2eee24b8467d6911ff482ba75b9f87203e92c3e4aea1948\"}","time":1739285333} 
+[36mINFO[0m[2025-02-11 22:52:02.797]/home/xaiohua/GoProject/Gin-Websocket/service/msgFind.go:93 Gin-WebSocket/service.AppendAndSort() {"type":4,"from":4,"to":5,"content":"😙","time":1739285326} 
+[36mINFO[0m[2025-02-11 22:52:02.797]/home/xaiohua/GoProject/Gin-Websocket/service/msgFind.go:93 Gin-WebSocket/service.AppendAndSort() {"type":4,"from":4,"to":5,"content":"1212","time":1739285108} 
+[36mINFO[0m[2025-02-11 22:52:02.797]/home/xaiohua/GoProject/Gin-Websocket/service/msgFind.go:93 Gin-WebSocket/service.AppendAndSort() {"type":4,"from":4,"to":5,"content":"sas","time":1739282956} 
+[36mINFO[0m[2025-02-11 22:52:02.797]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:209 Gin-WebSocket/service.(*Connection).ChatMessageHistory() 15 [{4 4 5 😗 1739285344 []} {4 5 4 🥰 1739285341 []} {4 4 5 {"type":"file","fileName":"Chrome扩展自定义采集——使用Clipchamp制作.mp4","fileSize":62727996,"fileType":"video/mp4","fileUrl":"http://localhost:1900/xaiohua/15110f16-3e73-4340-b1c1-7aa0ea5830d7.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZbK6pEyviB1rd1F54Laz%2F20250211%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250211T144853Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=defeff024a86148ed2eee24b8467d6911ff482ba75b9f87203e92c3e4aea1948"} 1739285333 []} {4 4 5 😙 1739285326 []} {4 5 4 😝 1739285322 []} {4 5 4 sas 1739285319 []} {4 5 4 a 1739285317 []} {4 5 4 a 1739285307 []} {4 5 4 sa 1739285301 []} {4 5 4 1 1739285185 []} {4 5 4 1212 1739285154 []} {4 5 4 {"type":"file","fileName":"Web后台发布采集任务——使用Clipchamp制作.mp4","fileSize":45516963,"fileType":"video/mp4","fileUrl":"http://localhost:1900/xaiohua/962d1cfb-5a0e-4822-a730-eb35f213b8d5.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZbK6pEyviB1rd1F54Laz%2F20250211%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250211T144516Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ae3a453bd391f73a9c3cac904f4e0b5678e086d99b968cb2a84578a2db25b7e5"} 1739285116 []} {4 5 4 sasa 1739285113 []} {4 4 5 1212 1739285108 []} {4 4 5 sas 1739282956 []}] 
+[36mINFO[0m[2025-02-11 22:52:04.676]/home/xaiohua/GoProject/Gin-Websocket/service/msgFind.go:93 Gin-WebSocket/service.AppendAndSort() {"type":4,"from":4,"to":5,"content":"1212","time":1739285108} 
+[36mINFO[0m[2025-02-11 22:52:04.676]/home/xaiohua/GoProject/Gin-Websocket/service/msgFind.go:93 Gin-WebSocket/service.AppendAndSort() {"type":4,"from":4,"to":5,"content":"sas","time":1739282956} 
+[36mINFO[0m[2025-02-11 22:52:04.676]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:209 Gin-WebSocket/service.(*Connection).ChatMessageHistory() 12 [{4 5 4 1212 1739285154 []} {4 5 4 {"type":"file","fileName":"Web后台发布采集任务——使用Clipchamp制作.mp4","fileSize":45516963,"fileType":"video/mp4","fileUrl":"http://localhost:1900/xaiohua/962d1cfb-5a0e-4822-a730-eb35f213b8d5.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZbK6pEyviB1rd1F54Laz%2F20250211%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250211T144516Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ae3a453bd391f73a9c3cac904f4e0b5678e086d99b968cb2a84578a2db25b7e5"} 1739285116 []} {4 5 4 sasa 1739285113 []} {4 4 5 1212 1739285108 []} {4 5 4 1212 1739285080 []} {4 5 4 🙂 1739284294 []} {4 5 4 😗 1739283722 []} {4 5 4 {"type":"file","fileName":"Web后台发布采集任务——使用Clipchamp制作.mp4","fileSize":45516963,"fileType":"video/mp4","fileUrl":"http://localhost:1900/xaiohua/f198a446-f08b-4cf6-abc1-08ddc44daea0.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZbK6pEyviB1rd1F54Laz%2F20250211%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250211T141947Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=28c7fe013ea92fb89d13a4690a295c8062b9525b4a8f151892dfcab58870d76e"} 1739283587 []} {4 5 4 sadadas 1739283584 []} {4 5 4 1212 1739283582 []} {4 5 4 🥳 1739283572 []} {4 4 5 sas 1739282956 []}] 
+[36mINFO[0m[2025-02-11 22:52:06.730]/home/xaiohua/GoProject/Gin-Websocket/service/msgFind.go:93 Gin-WebSocket/service.AppendAndSort() {"type":4,"from":4,"to":5,"content":"sas","time":1739282956} 
+[36mINFO[0m[2025-02-11 22:52:06.730]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:209 Gin-WebSocket/service.(*Connection).ChatMessageHistory() 10 [{4 5 4 🥳 1739283572 []} {4 5 4 🤪 1739283392 []} {4 5 4 12121 1739283337 []} {4 5 4 sasasa 1739283135 []} {4 5 4 {"type":"file","fileName":"Web后台发布采集任务——使用Clipchamp制作.mp4","fileSize":45516963,"fileType":"video/mp4","fileUrl":"http://localhost:1900/xaiohua/9419ff67-c18c-4dfc-a646-1e091ba393d3.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ZbK6pEyviB1rd1F54Laz%2F20250211%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250211T141001Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=cc8dd1915b7755757a870709dc4c99538ddd335cd811d38d59a90b8580d310e2"} 1739283001 []} {4 5 4 12121 1739282982 []} {4 5 4 sasas 1739282975 []} {4 5 4 sasa 1739282970 []} {4 4 5 sas 1739282956 []} {4 5 4 sasasassa 1739282601 []}] 
+[36mINFO[0m[2025-02-11 22:52:08.499]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:209 Gin-WebSocket/service.(*Connection).ChatMessageHistory() 0 []                                         
+[36mINFO[0m[2025-02-11 22:52:09.632]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:209 Gin-WebSocket/service.(*Connection).ChatMessageHistory() 0 []                                         
+[36mINFO[0m[2025-02-11 22:52:16.095]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:40 Gin-WebSocket/service.StartChatService() 在线：4                                         
+[36mINFO[0m[2025-02-11 22:52:16.096]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:160 Gin-WebSocket/service.(*Connection).Write() 转发了！                                         
+[36mINFO[0m[2025-02-11 22:52:55.333]/home/xaiohua/GoProject/Gin-Websocket/conf/conf.go:110 Gin-WebSocket/conf.MongoDB() MongoDB connect success                      
+[36mINFO[0m[2025-02-11 22:52:55.336]/home/xaiohua/GoProject/Gin-Websocket/model/init.go:29 Gin-WebSocket/model.Database() Mysql connect success                        
+[36mINFO[0m[2025-02-11 22:52:55.360]/home/xaiohua/GoProject/Gin-Websocket/conf/conf.go:98 Gin-WebSocket/conf.Minio() Minio connect success                        
+[36mINFO[0m[2025-02-11 22:53:06.062]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:66 Gin-WebSocket/service.HandleChat() uid:4                                        
+[36mINFO[0m[2025-02-11 22:53:06.063]/home/xaiohua/GoProject/Gin-Websocket/service/wsChat.go:66 Gin-WebSocket/service.HandleChat() uid:5                                        
+[36mINFO[0m[2025-02-11 22:53:06.063]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:53:06.063]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：1                                   
+[36mINFO[0m[2025-02-11 22:53:06.065]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:13 Gin-WebSocket/service.StartChatService() 用户注册                                         
+[36mINFO[0m[2025-02-11 22:53:06.065]/home/xaiohua/GoProject/Gin-Websocket/service/StartChatService.go:17 Gin-WebSocket/service.StartChatService() 当前在线用户数据：2                                   

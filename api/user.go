@@ -5,10 +5,11 @@ import (
 	"Gin-WebSocket/serializer"
 	handleUser "Gin-WebSocket/service"
 	"fmt"
+	"strconv"
+
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"
 	"github.com/sirupsen/logrus"
-	"strconv"
 )
 
 func UserRegister(ctx *gin.Context) {
@@ -37,25 +38,17 @@ func UserLogin(ctx *gin.Context) {
 }
 
 func User(ctx *gin.Context) {
-
-	if ctx.Request.Method == "GET" {
-
-	} else if ctx.Request.Method == "POST" {
+	if ctx.Request.Method == "POST" {
 		var userAvatarService handleUser.UserService
 		if err := ctx.ShouldBind(&userAvatarService); err != nil {
 			logrus.Info("USER POST err: ", err)
 			ctx.JSON(400, ErrorResponse(err))
 		} else {
+			logrus.Info(userAvatarService)
 			res := userAvatarService.POST()
 			ctx.JSON(200, res)
 		}
-
-	} else if ctx.Request.Method == "PUT" {
-
-	} else if ctx.Request.Method == "DELETE" {
-
 	}
-
 }
 func CheckSession(ctx *gin.Context) {
 

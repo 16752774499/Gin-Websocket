@@ -2,9 +2,10 @@ package api
 
 import (
 	"Gin-WebSocket/service"
+	"net/http"
+
 	"github.com/gin-gonic/gin"
 	"github.com/sirupsen/logrus"
-	"net/http"
 )
 
 const (
@@ -14,7 +15,7 @@ const (
 // 文件上传
 func Upload(ctx *gin.Context) {
 
-	file, header, err := ctx.Request.FormFile("HandleFile")
+	file, header, err := ctx.Request.FormFile("file")
 	if err != nil {
 		ctx.JSON(http.StatusBadRequest, gin.H{"status": 400, "msg": "No HandleFile uploaded"})
 		logrus.Error(err)

@@ -7,13 +7,14 @@ import (
 	"Gin-WebSocket/pkg/e"
 	"encoding/json"
 	"fmt"
-	"github.com/gin-gonic/gin"
-	"github.com/gorilla/websocket"
-	"github.com/sirupsen/logrus"
 	"net/http"
 	"strconv"
 	"sync"
 	"time"
+
+	"github.com/gin-gonic/gin"
+	"github.com/gorilla/websocket"
+	"github.com/sirupsen/logrus"
 )
 
 // 消息过期时长
@@ -206,7 +207,6 @@ func (client *Connection) ChatMessageHistory(message Message) {
 		client.conn.WriteJSON(replyMsg)
 		return
 	}
-	logrus.Info(len(results), results)
 	if len(results) > 10 {
 		results = results[:10]
 	} else if len(results) == 0 {

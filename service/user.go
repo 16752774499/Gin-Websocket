@@ -6,11 +6,12 @@ import (
 	"Gin-WebSocket/serializer"
 	"errors"
 	"fmt"
+	"time"
+
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"
 	"github.com/sirupsen/logrus"
 	"gorm.io/gorm"
-	"time"
 )
 
 type UserService struct {
@@ -102,14 +103,20 @@ func (service *UserService) Login(ctx *gin.Context) serializer.Response {
 }
 
 func (service *UserService) POST() serializer.Response {
+	type User struct {
+		ID       int    `json:"id"`
+		UserName string `json:"userName"`
+		Avatar   string `json:"avatar"`
+	}
 	userID := service.Id
-	var user model.User
+	logrus.Info(userID)
+	var user User
 	model.DB.Model(&model.User{}).Where("id = ?", userID).First(&user)
 
 	return serializer.Response{
 		Status: 200,
 		Msg:    "请求成功！",
-		Data:   user.Avatar.String,
+		Data:   user,
 	}
 }
 

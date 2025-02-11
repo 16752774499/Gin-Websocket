@@ -2,6 +2,7 @@ package router
 
 import (
 	"Gin-WebSocket/api"
+
 	"github.com/gin-gonic/gin"
 )
 
@@ -41,10 +42,11 @@ func UserRouter(router *gin.Engine) {
 		userRouter.POST("/search", api.SearchUser)    //搜索用户
 		userRouter.POST("/add-friend", api.AddFriend) //添加好友
 		userRouter.GET("/friend-requests", api.FriendRequests)
-		userRouter.POST("handle-request", api.HandleRequest)
+		userRouter.POST("/handle-request", api.HandleRequest)
 		userRouter.GET("/friends", api.Friend)
 
-		userRouter.POST("", api.User)             // 用户信息
+		userRouter.POST("", api.User) // 用户信息
+
 		userRouter.DELETE("/:userName", api.User) //注销用户
 		userRouter.PUT("", api.User)              //修改用户信息
 
