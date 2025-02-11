@@ -1,4 +1,4 @@
-package HandleFile
+package service
 
 import (
 	"Gin-WebSocket/conf"

@@ -1,16 +1,15 @@
 package router
 
 import (
-	"Gin-WebSocket/service/wsChat"
-	"Gin-WebSocket/service/wsHeartbeat"
+	"Gin-WebSocket/service"
 	"github.com/gin-gonic/gin"
 )
 
 func WsRouter(router *gin.Engine) {
 	wsRouter := router.Group("/ws")
 	{
-		wsRouter.GET("/chat", wsChat.HandleChat)
-		wsRouter.GET("/heartbeat", wsHeartbeat.HandleHeartbeat)
+		wsRouter.GET("/chat", service.HandleChat)
+		wsRouter.GET("/heartbeat", service.HandleHeartbeat)
 		wsRouter.GET("/ping", func(c *gin.Context) {
 			c.JSON(200, "success")
 		})

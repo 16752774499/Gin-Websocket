@@ -1,7 +1,7 @@
 package api
 
 import (
-	"Gin-WebSocket/service/HandleFile"
+	"Gin-WebSocket/service"
 	"github.com/gin-gonic/gin"
 	"github.com/sirupsen/logrus"
 	"net/http"
@@ -23,7 +23,7 @@ func Upload(ctx *gin.Context) {
 	defer file.Close()
 	// 检查文件大小
 	if header.Size > MaxFileSize {
-		ctx.JSON(http.StatusBadRequest, HandleFile.ErrorResponse{
+		ctx.JSON(http.StatusBadRequest, service.ErrorResponse{
 			Status:  400,
 			Message: "File size exceeds limit (100MB)",
 		})
@@ -33,9 +33,9 @@ func Upload(ctx *gin.Context) {
 		//})
 		return
 	}
-	res, err := HandleFile.UploadFile(file, header)
+	res, err := service.UploadFile(file, header)
 	if err != nil {
-		ctx.JSON(http.StatusBadRequest, HandleFile.ErrorResponse{
+		ctx.JSON(http.StatusBadRequest, service.ErrorResponse{
 			Status:  400,
 			Message: err.Error(),
 			Error:   "handleFile-UploadFile error!",

@@ -3,7 +3,7 @@ package api
 import (
 	"Gin-WebSocket/model"
 	"Gin-WebSocket/serializer"
-	handleUser "Gin-WebSocket/service/user"
+	handleUser "Gin-WebSocket/service"
 	"fmt"
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"

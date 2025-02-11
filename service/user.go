@@ -1,10 +1,9 @@
-package handleUser
+package service
 
 import (
 	"Gin-WebSocket/model"
 	tools "Gin-WebSocket/public"
 	"Gin-WebSocket/serializer"
-	"Gin-WebSocket/service/wsChat"
 	"errors"
 	"fmt"
 	"github.com/gin-contrib/sessions"
@@ -65,7 +64,7 @@ func (service *UserService) Login(ctx *gin.Context) serializer.Response {
 		}
 	}
 
-	if wsChat.WsServer.IsUserOnline(int(user.ID)) {
+	if WsServer.IsUserOnline(int(user.ID)) {
 		return serializer.Response{
 			Status: 400,
 			Msg:    "用户在别处登录",

@@ -1,4 +1,4 @@
-package wsChat
+package service
 
 import "C"
 import (

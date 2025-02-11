@@ -5,14 +5,14 @@ import (
 	"Gin-WebSocket/conf"
 	"Gin-WebSocket/middleware"
 	"Gin-WebSocket/router"
-	"Gin-WebSocket/service/wsChat"
+	"Gin-WebSocket/service"
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"
 )
 
 func main() {
 	conf.Init()
-	go wsChat.StartChatService()
+	go service.StartChatService()
 	//go wsHeartbeat.StartHeartbeats()
 	r := gin.Default()
 	r.Static("/static", "./statics")
